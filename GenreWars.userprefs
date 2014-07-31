@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\New Scripts\HealthBarSprite.cs">
+    <Files>
+      <File FileName="Assets\Scripts\New Scripts\HealthManager.cs" Line="40" Column="197" />
+      <File FileName="GenreWars.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="148" Column="3" />
+      <File FileName="Assets\Scripts\Grid Scripts\GridCS.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Camera Controls\CameraPivot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI Scripts\UnitChoice.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI Scripts\GUILeftPaneButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\New Scripts\HealthBarSprite.cs" Line="34" Column="53" />
+      <File FileName="Assets\Scripts\New Scripts\UnitController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\Unit.cs" Line="188" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\HeavyKind.cs" Line="43" Column="1" />
+      <File FileName="Assets\Scripts\Grid Scripts\GridReader.cs" Line="343" Column="2" />
+      <File FileName="Assets\Scripts\New Scripts\HealthBarClient.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\New Scripts\SpriteManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\New Scripts\Sprite.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\New Scripts\LinkedSpriteManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

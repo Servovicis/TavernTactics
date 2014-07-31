@@ -1,0 +1,24 @@
+Changelog:
+
+Unity Editor (UnityBuild.cs)
+	-"Genre Wars" button changed to "Tavern Tactics"
+	-UpdateUnits now calls units from [Application.dataPath + "/Resources/Genre/" + GenreName + "/Units/"] instead of
+		[Application.dataPath + "/Resources/Genre/" + GenreName + "/"]
+
+File Structure
+	-All unit prefabs moved to the Units folder inside of their genre along with their scripts.
+	-Created a UnitPortraits folder in the genres that contains simpler prefabs for loading into the unit portrait.
+
+Scripts
+	UnitPortraitController.cs
+		-Created; This will be placed on the UnitPortrait GameObject. It switches out the unit inside of the unit portrait.
+			It can be called from anywhere at UnitPortraitController.Instance.
+
+	Unit.cs
+		-myPortrait variable was added - it is intended to contain the portrait gameobject associated with this unit.
+
+	GenreScriptInitializer.cs
+		-LoadItemsIntoGenre()
+			-Now loads in units from [Application.dataPath + "/Resources/Genre/" + GenreName + "/Units/"] instead of
+				[Application.dataPath + "/Resources/Genre/" + GenreName + "/"]
+			-Now adds from [Application.dataPath + "/Resources/Genre/" + GenreName + "/UnitPortrait/"] into Unit.myPortrait
