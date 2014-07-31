@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: 7e47bea43e1822a41aac41dd5001076e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gargoyles_ref_back
+    100004: Gargoyles_ref_CNT__CNT1
+    100006: Gargoyles_ref_CNT_Arrow_CNT2
+    100008: Gargoyles_ref_CNT_Arrow_CNT4
+    100010: Gargoyles_ref_CNT_Arrow_CNT5
+    100012: Gargoyles_ref_CNT_BACKUP_GB
+    100014: Gargoyles_ref_CNT_MAIN_CNT
+    100016: Gargoyles_ref_Finger_CNT
+    100018: Gargoyles_ref_Finger_CNT1
+    100020: Gargoyles_ref_Finger_CNT2
+    100022: Gargoyles_ref_Finger_CNT3
+    100024: Gargoyles_ref_Finger_CNT4
+    100026: Gargoyles_ref_Finger_CNT5
+    100028: Gargoyles_ref_Finger_CNT6
+    100030: Gargoyles_ref_Finger_CNT7
+    100032: Gargoyles_ref_gargolye001
+    100034: Gargoyles_ref_GB_Head
+    100036: Gargoyles_ref_GB_L_Foot_CNT
+    100038: Gargoyles_ref_GB_L_Hand_CNT
+    100040: Gargoyles_ref_GB_L_HAND_JNT
+    100042: Gargoyles_ref_GB_L_HAND_JNT1
+    100044: Gargoyles_ref_GB_L_Hip_CNT
+    100046: Gargoyles_ref_GB_L_LEG_JNT
+    100048: Gargoyles_ref_GB_L_Shoulder_CNT
+    100050: Gargoyles_ref_GB_L_Shoulder_JNT1
+    100052: Gargoyles_ref_GB_L_Shoulder_JNT2
+    100054: Gargoyles_ref_GB_L_WING_CNT2
+    100056: Gargoyles_ref_GB_L_WING_CNT3
+    100058: Gargoyles_ref_GB_L_WING_CNT4
+    100060: Gargoyles_ref_GB_L_Wing_JNT
+    100062: Gargoyles_ref_GB_Main
+    100064: Gargoyles_ref_GB_Neck
+    100066: Gargoyles_ref_GB_R_Elbow_CNT
+    100068: Gargoyles_ref_GB_R_Foot_CNT
+    100070: Gargoyles_ref_GB_R_Hand_CNT
+    100072: Gargoyles_ref_GB_R_Hip_CNT
+    100074: Gargoyles_ref_GB_R_LEG_JNT
+    100076: Gargoyles_ref_GB_R_Shoulder_CNT
+    100078: Gargoyles_ref_GB_R_WING_CNT1
+    100080: Gargoyles_ref_GB_R_WING_CNT2
+    100082: Gargoyles_ref_GB_R_WING_CNT3
+    100084: Gargoyles_ref_GB_R_Wing_JNT1
+    100086: Gargoyles_ref_GB_Spine1
+    100088: Gargoyles_ref_GB_Spine2
+    100090: Gargoyles_ref_GB_Tail_1
+    100092: Gargoyles_ref_GB_Tail_2
+    100094: Gargoyles_ref_GB_Tail_3
+    100096: Gargoyles_ref_GB_Tail_4
+    100098: Gargoyles_ref_group1
+    100100: Gargoyles_ref_Head_CNT
+    100102: Gargoyles_ref_HEad_JNT
+    100104: Gargoyles_ref_Head_tip
+    100106: Gargoyles_ref_ikHandle3
+    100108: Gargoyles_ref_L_Ball_CNT
+    100110: Gargoyles_ref_L_Ball_ik
+    100112: Gargoyles_ref_L_Ball_JNT
+    100114: Gargoyles_ref_L_Clav_ik
+    100116: Gargoyles_ref_L_Clav_JNT
+    100118: Gargoyles_ref_L_Elbow_CNT
+    100120: Gargoyles_ref_L_Elbow_ik
+    100122: Gargoyles_ref_L_Elbow_ik1
+    100124: Gargoyles_ref_L_Elbow_JNT
+    100126: Gargoyles_ref_L_Foot_CNT
+    100128: Gargoyles_ref_L_Hand_CNT
+    100130: Gargoyles_ref_L_Hand_JNT
+    100132: Gargoyles_ref_L_Hip_CNT
+    100134: Gargoyles_ref_L_Hip_JNT
+    100136: Gargoyles_ref_L_Knee_CNT
+    100138: Gargoyles_ref_L_KNEE_IK
+    100140: Gargoyles_ref_L_Knee_JNT
+    100142: Gargoyles_ref_L_MiddleFinger_1_JNT
+    100144: Gargoyles_ref_L_MiddleFinger_2_JNT
+    100146: Gargoyles_ref_L_MiddleFinger_Tip
+    100148: Gargoyles_ref_L_pinky_1_JNT
+    100150: Gargoyles_ref_L_pinky_2_JNT
+    100152: Gargoyles_ref_L_pinky_tip
+    100154: Gargoyles_ref_L_Point_1_JNT
+    100156: Gargoyles_ref_L_Point_2_JNT
+    100158: Gargoyles_ref_L_Point_Tip
+    100160: Gargoyles_ref_L_Shoulder_CNT
+    100162: Gargoyles_ref_L_Shoulder_JNT
+    100164: Gargoyles_ref_L_Thumb_1_JNT
+    100166: Gargoyles_ref_L_Thumb_2_JNT
+    100168: Gargoyles_ref_L_Thumb_dunno_JNT
+    100170: Gargoyles_ref_L_Thumb_Tip
+    100172: Gargoyles_ref_L_TippyToe_CNT
+    100174: Gargoyles_ref_L_Toe_CNT
+    100176: Gargoyles_ref_L_Toe_ik
+    100178: Gargoyles_ref_L_Toe_JNT
+    100180: Gargoyles_ref_L_Toe_tip
+    100182: Gargoyles_ref_L_Wing_1
+    100184: Gargoyles_ref_L_Wing_1_CNT
+    100186: Gargoyles_ref_L_Wing_1_JNT
+    100188: Gargoyles_ref_L_Wing_2
+    100190: Gargoyles_ref_L_Wing_2_1_JNT
+    100192: Gargoyles_ref_L_Wing_2_CNT
+    100194: Gargoyles_ref_L_Wing_2_JNT
+    100196: Gargoyles_ref_L_Wing_2_Tip
+    100198: Gargoyles_ref_L_Wing_3
+    100200: Gargoyles_ref_L_Wing_3_1_JNT
+    100202: Gargoyles_ref_L_Wing_3_2_JNT
+    100204: Gargoyles_ref_L_Wing_3_3_JNT
+    100206: Gargoyles_ref_L_Wing_3_CNT
+    100208: Gargoyles_ref_L_Wing_3_JNT
+    100210: Gargoyles_ref_L_Wing_3_Tip1
+    100212: Gargoyles_ref_L_Wing_3_Tip2
+    100214: Gargoyles_ref_L_Wing_4
+    100216: Gargoyles_ref_L_Wing_4_JNT
+    100218: Gargoyles_ref_Main_CNT
+    100220: Gargoyles_ref_Main_JNT
+    100222: Gargoyles_ref_Neck_CNT
+    100224: Gargoyles_ref_NEck_JNT
+    100226: Gargoyles_ref_null1
+    100228: Gargoyles_ref_null2
+    100230: Gargoyles_ref_null3
+    100232: Gargoyles_ref_null4
+    100234: Gargoyles_ref_null5
+    100236: Gargoyles_ref_null6
+    100238: Gargoyles_ref_null7
+    100240: Gargoyles_ref_null8
+    100242: Gargoyles_ref_R_BALL_CNT
+    100244: Gargoyles_ref_R_Ball_ik
+    100246: Gargoyles_ref_R_Ball_JNT
+    100248: Gargoyles_ref_R_clav_ik
+    100250: Gargoyles_ref_R_Clav_JNT
+    100252: Gargoyles_ref_R_Elbow_CNT
+    100254: Gargoyles_ref_R_Elbow_ik
+    100256: Gargoyles_ref_R_Elbow_JNT
+    100258: Gargoyles_ref_R_Foot_CNT
+    100260: Gargoyles_ref_R_Hand_CNT
+    100262: Gargoyles_ref_R_Hand_JNT
+    100264: Gargoyles_ref_R_Hip_CNT
+    100266: Gargoyles_ref_R_Hip_JNT
+    100268: Gargoyles_ref_R_Knee_CNT
+    100270: Gargoyles_ref_R_KNEE_IK
+    100272: Gargoyles_ref_R_Knee_JNT
+    100274: Gargoyles_ref_R_MiddleFinger_1_JNT
+    100276: Gargoyles_ref_R_MiddleFinger_2_JNT
+    100278: Gargoyles_ref_R_MiddleFinger_Tip
+    100280: Gargoyles_ref_R_pinky_1_JNT
+    100282: Gargoyles_ref_R_pinky_2_JNT
+    100284: Gargoyles_ref_R_pinky_tip
+    100286: Gargoyles_ref_R_Point_1_JNT
+    100288: Gargoyles_ref_R_Point_2_JNT
+    100290: Gargoyles_ref_R_Point_Tip
+    100292: Gargoyles_ref_R_Shoulder_CNT
+    100294: Gargoyles_ref_R_Shoulder_JNT
+    100296: Gargoyles_ref_R_Thumb_1_JNT
+    100298: Gargoyles_ref_R_Thumb_2_JNT
+    100300: Gargoyles_ref_R_Thumb_dunno_JNT
+    100302: Gargoyles_ref_R_Thumb_Tip
+    100304: Gargoyles_ref_R_TippyToe_CNT
+    100306: Gargoyles_ref_R_Toe_CNT
+    100308: Gargoyles_ref_R_Toe_IK
+    100310: Gargoyles_ref_R_Toe_JNT
+    100312: Gargoyles_ref_R_Toe_tip
+    100314: Gargoyles_ref_R_Wing_1
+    100316: Gargoyles_ref_R_Wing_1_1_JNT
+    100318: Gargoyles_ref_R_Wing_1_CNT
+    100320: Gargoyles_ref_R_Wing_1_JNT
+    100322: Gargoyles_ref_R_Wing_2_CNT
+    100324: Gargoyles_ref_R_Wing_2_JNT
+    100326: Gargoyles_ref_R_Wing_2_Tip
+    100328: Gargoyles_ref_R_Wing_3_1_JNT
+    100330: Gargoyles_ref_R_Wing_3_2_JNT
+    100332: Gargoyles_ref_R_Wing_3_3_JNT
+    100334: Gargoyles_ref_R_Wing_3_CNT
+    100336: Gargoyles_ref_R_Wing_3_JNT
+    100338: Gargoyles_ref_R_Wing_3_Tip1
+    100340: Gargoyles_ref_R_Wing_3_Tip2
+    100342: Gargoyles_ref_R_Wing_4_JNT
+    100344: Gargoyles_ref_R_Wing_5
+    100346: Gargoyles_ref_R_Wing_6
+    100348: Gargoyles_ref_R_Wing_7
+    100350: Gargoyles_ref_Spine_1_CNT
+    100352: Gargoyles_ref_Spine_1_JNT
+    100354: Gargoyles_ref_Spine_2_CNT
+    100356: Gargoyles_ref_Spine_2_JNT
+    100358: Gargoyles_ref_Tail_1_JNT
+    100360: Gargoyles_ref_Tail_2_JNT
+    100362: Gargoyles_ref_Tail_3_JNT
+    100364: Gargoyles_ref_Tail_4_JNT
+    100366: Gargoyles_ref_Tail_CNT_1
+    100368: Gargoyles_ref_Tail_CNT_2
+    100370: Gargoyles_ref_Tail_CNT_3
+    100372: Gargoyles_ref_Tail_CNT_4
+    100374: Gargoyles_ref_Tail_Tip
+    100376: Gargoyles_ref_transform1
+    100378: Gargoyles_ref_transform2
+    100380: Gargoyles_ref_transform3
+    100382: Gargoyles_ref_transform4
+    100384: Gargoyles_ref_transform5
+    100386: Gargoyles_ref_transform6
+    100388: Gargoyles_ref_transform7
+    100390: Gargoyles_ref_transform8
+    100392: Gargoyles_ref_WORLD_CNT
+    100394: Gargoyles_ref_World_NODE
+    400000: //RootNode
+    400002: Gargoyles_ref_back
+    400004: Gargoyles_ref_CNT__CNT1
+    400006: Gargoyles_ref_CNT_Arrow_CNT2
+    400008: Gargoyles_ref_CNT_Arrow_CNT4
+    400010: Gargoyles_ref_CNT_Arrow_CNT5
+    400012: Gargoyles_ref_CNT_BACKUP_GB
+    400014: Gargoyles_ref_CNT_MAIN_CNT
+    400016: Gargoyles_ref_Finger_CNT
+    400018: Gargoyles_ref_Finger_CNT1
+    400020: Gargoyles_ref_Finger_CNT2
+    400022: Gargoyles_ref_Finger_CNT3
+    400024: Gargoyles_ref_Finger_CNT4
+    400026: Gargoyles_ref_Finger_CNT5
+    400028: Gargoyles_ref_Finger_CNT6
+    400030: Gargoyles_ref_Finger_CNT7
+    400032: Gargoyles_ref_gargolye001
+    400034: Gargoyles_ref_GB_Head
+    400036: Gargoyles_ref_GB_L_Foot_CNT
+    400038: Gargoyles_ref_GB_L_Hand_CNT
+    400040: Gargoyles_ref_GB_L_HAND_JNT
+    400042: Gargoyles_ref_GB_L_HAND_JNT1
+    400044: Gargoyles_ref_GB_L_Hip_CNT
+    400046: Gargoyles_ref_GB_L_LEG_JNT
+    400048: Gargoyles_ref_GB_L_Shoulder_CNT
+    400050: Gargoyles_ref_GB_L_Shoulder_JNT1
+    400052: Gargoyles_ref_GB_L_Shoulder_JNT2
+    400054: Gargoyles_ref_GB_L_WING_CNT2
+    400056: Gargoyles_ref_GB_L_WING_CNT3
+    400058: Gargoyles_ref_GB_L_WING_CNT4
+    400060: Gargoyles_ref_GB_L_Wing_JNT
+    400062: Gargoyles_ref_GB_Main
+    400064: Gargoyles_ref_GB_Neck
+    400066: Gargoyles_ref_GB_R_Elbow_CNT
+    400068: Gargoyles_ref_GB_R_Foot_CNT
+    400070: Gargoyles_ref_GB_R_Hand_CNT
+    400072: Gargoyles_ref_GB_R_Hip_CNT
+    400074: Gargoyles_ref_GB_R_LEG_JNT
+    400076: Gargoyles_ref_GB_R_Shoulder_CNT
+    400078: Gargoyles_ref_GB_R_WING_CNT1
+    400080: Gargoyles_ref_GB_R_WING_CNT2
+    400082: Gargoyles_ref_GB_R_WING_CNT3
+    400084: Gargoyles_ref_GB_R_Wing_JNT1
+    400086: Gargoyles_ref_GB_Spine1
+    400088: Gargoyles_ref_GB_Spine2
+    400090: Gargoyles_ref_GB_Tail_1
+    400092: Gargoyles_ref_GB_Tail_2
+    400094: Gargoyles_ref_GB_Tail_3
+    400096: Gargoyles_ref_GB_Tail_4
+    400098: Gargoyles_ref_group1
+    400100: Gargoyles_ref_Head_CNT
+    400102: Gargoyles_ref_HEad_JNT
+    400104: Gargoyles_ref_Head_tip
+    400106: Gargoyles_ref_ikHandle3
+    400108: Gargoyles_ref_L_Ball_CNT
+    400110: Gargoyles_ref_L_Ball_ik
+    400112: Gargoyles_ref_L_Ball_JNT
+    400114: Gargoyles_ref_L_Clav_ik
+    400116: Gargoyles_ref_L_Clav_JNT
+    400118: Gargoyles_ref_L_Elbow_CNT
+    400120: Gargoyles_ref_L_Elbow_ik
+    400122: Gargoyles_ref_L_Elbow_ik1
+    400124: Gargoyles_ref_L_Elbow_JNT
+    400126: Gargoyles_ref_L_Foot_CNT
+    400128: Gargoyles_ref_L_Hand_CNT
+    400130: Gargoyles_ref_L_Hand_JNT
+    400132: Gargoyles_ref_L_Hip_CNT
+    400134: Gargoyles_ref_L_Hip_JNT
+    400136: Gargoyles_ref_L_Knee_CNT
+    400138: Gargoyles_ref_L_KNEE_IK
+    400140: Gargoyles_ref_L_Knee_JNT
+    400142: Gargoyles_ref_L_MiddleFinger_1_JNT
+    400144: Gargoyles_ref_L_MiddleFinger_2_JNT
+    400146: Gargoyles_ref_L_MiddleFinger_Tip
+    400148: Gargoyles_ref_L_pinky_1_JNT
+    400150: Gargoyles_ref_L_pinky_2_JNT
+    400152: Gargoyles_ref_L_pinky_tip
+    400154: Gargoyles_ref_L_Point_1_JNT
+    400156: Gargoyles_ref_L_Point_2_JNT
+    400158: Gargoyles_ref_L_Point_Tip
+    400160: Gargoyles_ref_L_Shoulder_CNT
+    400162: Gargoyles_ref_L_Shoulder_JNT
+    400164: Gargoyles_ref_L_Thumb_1_JNT
+    400166: Gargoyles_ref_L_Thumb_2_JNT
+    400168: Gargoyles_ref_L_Thumb_dunno_JNT
+    400170: Gargoyles_ref_L_Thumb_Tip
+    400172: Gargoyles_ref_L_TippyToe_CNT
+    400174: Gargoyles_ref_L_Toe_CNT
+    400176: Gargoyles_ref_L_Toe_ik
+    400178: Gargoyles_ref_L_Toe_JNT
+    400180: Gargoyles_ref_L_Toe_tip
+    400182: Gargoyles_ref_L_Wing_1
+    400184: Gargoyles_ref_L_Wing_1_CNT
+    400186: Gargoyles_ref_L_Wing_1_JNT
+    400188: Gargoyles_ref_L_Wing_2
+    400190: Gargoyles_ref_L_Wing_2_1_JNT
+    400192: Gargoyles_ref_L_Wing_2_CNT
+    400194: Gargoyles_ref_L_Wing_2_JNT
+    400196: Gargoyles_ref_L_Wing_2_Tip
+    400198: Gargoyles_ref_L_Wing_3
+    400200: Gargoyles_ref_L_Wing_3_1_JNT
+    400202: Gargoyles_ref_L_Wing_3_2_JNT
+    400204: Gargoyles_ref_L_Wing_3_3_JNT
+    400206: Gargoyles_ref_L_Wing_3_CNT
+    400208: Gargoyles_ref_L_Wing_3_JNT
+    400210: Gargoyles_ref_L_Wing_3_Tip1
+    400212: Gargoyles_ref_L_Wing_3_Tip2
+    400214: Gargoyles_ref_L_Wing_4
+    400216: Gargoyles_ref_L_Wing_4_JNT
+    400218: Gargoyles_ref_Main_CNT
+    400220: Gargoyles_ref_Main_JNT
+    400222: Gargoyles_ref_Neck_CNT
+    400224: Gargoyles_ref_NEck_JNT
+    400226: Gargoyles_ref_null1
+    400228: Gargoyles_ref_null2
+    400230: Gargoyles_ref_null3
+    400232: Gargoyles_ref_null4
+    400234: Gargoyles_ref_null5
+    400236: Gargoyles_ref_null6
+    400238: Gargoyles_ref_null7
+    400240: Gargoyles_ref_null8
+    400242: Gargoyles_ref_R_BALL_CNT
+    400244: Gargoyles_ref_R_Ball_ik
+    400246: Gargoyles_ref_R_Ball_JNT
+    400248: Gargoyles_ref_R_clav_ik
+    400250: Gargoyles_ref_R_Clav_JNT
+    400252: Gargoyles_ref_R_Elbow_CNT
+    400254: Gargoyles_ref_R_Elbow_ik
+    400256: Gargoyles_ref_R_Elbow_JNT
+    400258: Gargoyles_ref_R_Foot_CNT
+    400260: Gargoyles_ref_R_Hand_CNT
+    400262: Gargoyles_ref_R_Hand_JNT
+    400264: Gargoyles_ref_R_Hip_CNT
+    400266: Gargoyles_ref_R_Hip_JNT
+    400268: Gargoyles_ref_R_Knee_CNT
+    400270: Gargoyles_ref_R_KNEE_IK
+    400272: Gargoyles_ref_R_Knee_JNT
+    400274: Gargoyles_ref_R_MiddleFinger_1_JNT
+    400276: Gargoyles_ref_R_MiddleFinger_2_JNT
+    400278: Gargoyles_ref_R_MiddleFinger_Tip
+    400280: Gargoyles_ref_R_pinky_1_JNT
+    400282: Gargoyles_ref_R_pinky_2_JNT
+    400284: Gargoyles_ref_R_pinky_tip
+    400286: Gargoyles_ref_R_Point_1_JNT
+    400288: Gargoyles_ref_R_Point_2_JNT
+    400290: Gargoyles_ref_R_Point_Tip
+    400292: Gargoyles_ref_R_Shoulder_CNT
+    400294: Gargoyles_ref_R_Shoulder_JNT
+    400296: Gargoyles_ref_R_Thumb_1_JNT
+    400298: Gargoyles_ref_R_Thumb_2_JNT
+    400300: Gargoyles_ref_R_Thumb_dunno_JNT
+    400302: Gargoyles_ref_R_Thumb_Tip
+    400304: Gargoyles_ref_R_TippyToe_CNT
+    400306: Gargoyles_ref_R_Toe_CNT
+    400308: Gargoyles_ref_R_Toe_IK
+    400310: Gargoyles_ref_R_Toe_JNT
+    400312: Gargoyles_ref_R_Toe_tip
+    400314: Gargoyles_ref_R_Wing_1
+    400316: Gargoyles_ref_R_Wing_1_1_JNT
+    400318: Gargoyles_ref_R_Wing_1_CNT
+    400320: Gargoyles_ref_R_Wing_1_JNT
+    400322: Gargoyles_ref_R_Wing_2_CNT
+    400324: Gargoyles_ref_R_Wing_2_JNT
+    400326: Gargoyles_ref_R_Wing_2_Tip
+    400328: Gargoyles_ref_R_Wing_3_1_JNT
+    400330: Gargoyles_ref_R_Wing_3_2_JNT
+    400332: Gargoyles_ref_R_Wing_3_3_JNT
+    400334: Gargoyles_ref_R_Wing_3_CNT
+    400336: Gargoyles_ref_R_Wing_3_JNT
+    400338: Gargoyles_ref_R_Wing_3_Tip1
+    400340: Gargoyles_ref_R_Wing_3_Tip2
+    400342: Gargoyles_ref_R_Wing_4_JNT
+    400344: Gargoyles_ref_R_Wing_5
+    400346: Gargoyles_ref_R_Wing_6
+    400348: Gargoyles_ref_R_Wing_7
+    400350: Gargoyles_ref_Spine_1_CNT
+    400352: Gargoyles_ref_Spine_1_JNT
+    400354: Gargoyles_ref_Spine_2_CNT
+    400356: Gargoyles_ref_Spine_2_JNT
+    400358: Gargoyles_ref_Tail_1_JNT
+    400360: Gargoyles_ref_Tail_2_JNT
+    400362: Gargoyles_ref_Tail_3_JNT
+    400364: Gargoyles_ref_Tail_4_JNT
+    400366: Gargoyles_ref_Tail_CNT_1
+    400368: Gargoyles_ref_Tail_CNT_2
+    400370: Gargoyles_ref_Tail_CNT_3
+    400372: Gargoyles_ref_Tail_CNT_4
+    400374: Gargoyles_ref_Tail_Tip
+    400376: Gargoyles_ref_transform1
+    400378: Gargoyles_ref_transform2
+    400380: Gargoyles_ref_transform3
+    400382: Gargoyles_ref_transform4
+    400384: Gargoyles_ref_transform5
+    400386: Gargoyles_ref_transform6
+    400388: Gargoyles_ref_transform7
+    400390: Gargoyles_ref_transform8
+    400392: Gargoyles_ref_WORLD_CNT
+    400394: Gargoyles_ref_World_NODE
+    4300000: Gargoyles_ref_gargolye001
+    7400000: bake
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Gargoyles_ref_gargolye001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bake
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gargoyles_ref_back
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB/Gargoyles_ref_CNT__CNT1
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB/Gargoyles_ref_CNT_Arrow_CNT2
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB/Gargoyles_ref_CNT_Arrow_CNT4
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB/Gargoyles_ref_CNT_Arrow_CNT5
+        weight: 1
+      - path: Gargoyles_ref_CNT_BACKUP_GB/Gargoyles_ref_CNT_MAIN_CNT
+        weight: 1
+      - path: Gargoyles_ref_gargolye001
+        weight: 1
+      - path: Gargoyles_ref_group1
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT1
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT2
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT3
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT4
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT5
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT6
+        weight: 1
+      - path: Gargoyles_ref_group1/Gargoyles_ref_Finger_CNT7
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT/Gargoyles_ref_L_Ball_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT/Gargoyles_ref_L_Ball_CNT/Gargoyles_ref_L_Ball_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT/Gargoyles_ref_L_Ball_CNT/Gargoyles_ref_L_KNEE_IK
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT/Gargoyles_ref_L_Ball_CNT/Gargoyles_ref_L_Toe_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_L_Foot_CNT/Gargoyles_ref_L_Foot_CNT/Gargoyles_ref_L_TippyToe_CNT/Gargoyles_ref_L_Ball_CNT/Gargoyles_ref_L_Toe_CNT/Gargoyles_ref_L_Toe_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_L_Hip_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_L_Hip_CNT/Gargoyles_ref_L_Hip_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_R_Hip_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_R_Hip_CNT/Gargoyles_ref_R_Hip_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT/Gargoyles_ref_L_Shoulder_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT/Gargoyles_ref_L_Shoulder_CNT/Gargoyles_ref_GB_L_Hand_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT/Gargoyles_ref_L_Shoulder_CNT/Gargoyles_ref_GB_L_Hand_CNT/Gargoyles_ref_L_Hand_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT/Gargoyles_ref_L_Shoulder_CNT/Gargoyles_ref_GB_L_Hand_CNT/Gargoyles_ref_L_Hand_CNT/Gargoyles_ref_L_Elbow_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_Shoulder_CNT/Gargoyles_ref_L_Shoulder_CNT/Gargoyles_ref_L_Clav_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null1
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null1/Gargoyles_ref_L_Wing_1
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null2
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null2/Gargoyles_ref_L_Wing_2
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null3
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_GB_L_WING_CNT3/Gargoyles_ref_L_Wing_3_CNT/Gargoyles_ref_null3/Gargoyles_ref_L_Wing_3
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_null4
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_L_WING_CNT4/Gargoyles_ref_L_Wing_1_CNT/Gargoyles_ref_GB_L_WING_CNT2/Gargoyles_ref_L_Wing_2_CNT/Gargoyles_ref_null4/Gargoyles_ref_L_Wing_4
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_Neck
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_Neck/Gargoyles_ref_Neck_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_Neck/Gargoyles_ref_Neck_CNT/Gargoyles_ref_GB_Head
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_Neck/Gargoyles_ref_Neck_CNT/Gargoyles_ref_GB_Head/Gargoyles_ref_Head_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT/Gargoyles_ref_R_Shoulder_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT/Gargoyles_ref_R_Shoulder_CNT/Gargoyles_ref_GB_R_Hand_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT/Gargoyles_ref_R_Shoulder_CNT/Gargoyles_ref_GB_R_Hand_CNT/Gargoyles_ref_R_Hand_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT/Gargoyles_ref_R_Shoulder_CNT/Gargoyles_ref_GB_R_Hand_CNT/Gargoyles_ref_R_Hand_CNT/Gargoyles_ref_R_Elbow_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_Shoulder_CNT/Gargoyles_ref_R_Shoulder_CNT/Gargoyles_ref_R_clav_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null6
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null6/Gargoyles_ref_R_Wing_6
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null7
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null7/Gargoyles_ref_R_Wing_5
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null8
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_GB_R_WING_CNT3/Gargoyles_ref_R_Wing_3_CNT/Gargoyles_ref_null8/Gargoyles_ref_R_Wing_1
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_null5
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_Main/Gargoyles_ref_Main_CNT/Gargoyles_ref_GB_Spine1/Gargoyles_ref_Spine_1_CNT/Gargoyles_ref_GB_Spine2/Gargoyles_ref_Spine_2_CNT/Gargoyles_ref_GB_R_WING_CNT1/Gargoyles_ref_R_Wing_1_CNT/Gargoyles_ref_GB_R_WING_CNT2/Gargoyles_ref_R_Wing_2_CNT/Gargoyles_ref_null5/Gargoyles_ref_R_Wing_7
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Elbow_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Elbow_CNT/Gargoyles_ref_R_Elbow_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT/Gargoyles_ref_R_BALL_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT/Gargoyles_ref_R_BALL_CNT/Gargoyles_ref_R_Ball_ik
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT/Gargoyles_ref_R_BALL_CNT/Gargoyles_ref_R_KNEE_IK
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT/Gargoyles_ref_R_BALL_CNT/Gargoyles_ref_R_Toe_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_GB_R_Foot_CNT/Gargoyles_ref_R_Foot_CNT/Gargoyles_ref_R_TippyToe_CNT/Gargoyles_ref_R_BALL_CNT/Gargoyles_ref_R_Toe_CNT/Gargoyles_ref_R_Toe_IK
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_L_Elbow_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_L_Knee_CNT
+        weight: 1
+      - path: Gargoyles_ref_WORLD_CNT/Gargoyles_ref_R_Knee_CNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT/Gargoyles_ref_L_Hip_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT/Gargoyles_ref_L_Hip_JNT/Gargoyles_ref_L_Knee_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT/Gargoyles_ref_L_Hip_JNT/Gargoyles_ref_L_Knee_JNT/Gargoyles_ref_L_Ball_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT/Gargoyles_ref_L_Hip_JNT/Gargoyles_ref_L_Knee_JNT/Gargoyles_ref_L_Ball_JNT/Gargoyles_ref_L_Toe_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_L_LEG_JNT/Gargoyles_ref_L_Hip_JNT/Gargoyles_ref_L_Knee_JNT/Gargoyles_ref_L_Ball_JNT/Gargoyles_ref_L_Toe_JNT/Gargoyles_ref_L_Toe_tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_ikHandle3
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_R_Hip_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_R_Hip_JNT/Gargoyles_ref_R_Knee_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_R_Hip_JNT/Gargoyles_ref_R_Knee_JNT/Gargoyles_ref_R_Ball_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_R_Hip_JNT/Gargoyles_ref_R_Knee_JNT/Gargoyles_ref_R_Ball_JNT/Gargoyles_ref_R_Toe_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_R_LEG_JNT/Gargoyles_ref_R_Hip_JNT/Gargoyles_ref_R_Knee_JNT/Gargoyles_ref_R_Ball_JNT/Gargoyles_ref_R_Toe_JNT/Gargoyles_ref_R_Toe_tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2/Gargoyles_ref_Tail_CNT_1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2/Gargoyles_ref_Tail_CNT_1/Gargoyles_ref_GB_Tail_3
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2/Gargoyles_ref_Tail_CNT_1/Gargoyles_ref_GB_Tail_3/Gargoyles_ref_Tail_CNT_2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2/Gargoyles_ref_Tail_CNT_1/Gargoyles_ref_GB_Tail_3/Gargoyles_ref_Tail_CNT_2/Gargoyles_ref_GB_Tail_4
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_GB_Tail_1/Gargoyles_ref_Tail_CNT_4/Gargoyles_ref_GB_Tail_2/Gargoyles_ref_Tail_CNT_1/Gargoyles_ref_GB_Tail_3/Gargoyles_ref_Tail_CNT_2/Gargoyles_ref_GB_Tail_4/Gargoyles_ref_Tail_CNT_3
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_2_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_2_1_JNT/Gargoyles_ref_L_Wing_2_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_1_JNT/Gargoyles_ref_L_Wing_3_Tip1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_2_JNT/Gargoyles_ref_L_Wing_3_Tip2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_3_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_L_Wing_JNT/Gargoyles_ref_L_Wing_1_JNT/Gargoyles_ref_L_Wing_2_JNT/Gargoyles_ref_L_Wing_3_JNT/Gargoyles_ref_L_Wing_3_3_JNT/Gargoyles_ref_L_Wing_4_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform6
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform6/Gargoyles_ref_R_Wing_3_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform6/Gargoyles_ref_R_Wing_3_1_JNT/Gargoyles_ref_transform3
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform6/Gargoyles_ref_R_Wing_3_1_JNT/Gargoyles_ref_transform3/Gargoyles_ref_R_Wing_3_Tip1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform7
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform7/Gargoyles_ref_R_Wing_3_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform7/Gargoyles_ref_R_Wing_3_2_JNT/Gargoyles_ref_transform4
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform7/Gargoyles_ref_R_Wing_3_2_JNT/Gargoyles_ref_transform4/Gargoyles_ref_R_Wing_3_Tip2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform8
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform8/Gargoyles_ref_R_Wing_3_3_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform8/Gargoyles_ref_R_Wing_3_3_JNT/Gargoyles_ref_transform5
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_R_Wing_3_JNT/Gargoyles_ref_transform8/Gargoyles_ref_R_Wing_3_3_JNT/Gargoyles_ref_transform5/Gargoyles_ref_R_Wing_4_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_transform2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_transform2/Gargoyles_ref_R_Wing_1_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_transform2/Gargoyles_ref_R_Wing_1_1_JNT/Gargoyles_ref_transform1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_GB_R_Wing_JNT1/Gargoyles_ref_R_Wing_1_JNT/Gargoyles_ref_R_Wing_2_JNT/Gargoyles_ref_transform2/Gargoyles_ref_R_Wing_1_1_JNT/Gargoyles_ref_transform1/Gargoyles_ref_R_Wing_2_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_MiddleFinger_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_MiddleFinger_1_JNT/Gargoyles_ref_L_MiddleFinger_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_MiddleFinger_1_JNT/Gargoyles_ref_L_MiddleFinger_2_JNT/Gargoyles_ref_L_MiddleFinger_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_pinky_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_pinky_1_JNT/Gargoyles_ref_L_pinky_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_pinky_1_JNT/Gargoyles_ref_L_pinky_2_JNT/Gargoyles_ref_L_pinky_tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Point_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Point_1_JNT/Gargoyles_ref_L_Point_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Point_1_JNT/Gargoyles_ref_L_Point_2_JNT/Gargoyles_ref_L_Point_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Thumb_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Thumb_1_JNT/Gargoyles_ref_L_Thumb_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Thumb_1_JNT/Gargoyles_ref_L_Thumb_2_JNT/Gargoyles_ref_L_Thumb_dunno_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_L_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT1/Gargoyles_ref_L_Shoulder_JNT/Gargoyles_ref_L_Elbow_JNT/Gargoyles_ref_L_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT/Gargoyles_ref_L_Thumb_1_JNT/Gargoyles_ref_L_Thumb_2_JNT/Gargoyles_ref_L_Thumb_dunno_JNT/Gargoyles_ref_L_Thumb_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_NEck_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_NEck_JNT/Gargoyles_ref_HEad_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_NEck_JNT/Gargoyles_ref_HEad_JNT/Gargoyles_ref_Head_tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_L_Elbow_ik1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_MiddleFinger_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_MiddleFinger_1_JNT/Gargoyles_ref_R_MiddleFinger_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_MiddleFinger_1_JNT/Gargoyles_ref_R_MiddleFinger_2_JNT/Gargoyles_ref_R_MiddleFinger_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_pinky_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_pinky_1_JNT/Gargoyles_ref_R_pinky_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_pinky_1_JNT/Gargoyles_ref_R_pinky_2_JNT/Gargoyles_ref_R_pinky_tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Point_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Point_1_JNT/Gargoyles_ref_R_Point_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Point_1_JNT/Gargoyles_ref_R_Point_2_JNT/Gargoyles_ref_R_Point_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Thumb_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Thumb_1_JNT/Gargoyles_ref_R_Thumb_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Thumb_1_JNT/Gargoyles_ref_R_Thumb_2_JNT/Gargoyles_ref_R_Thumb_dunno_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Spine_1_JNT/Gargoyles_ref_Spine_2_JNT/Gargoyles_ref_R_Clav_JNT/Gargoyles_ref_GB_L_Shoulder_JNT2/Gargoyles_ref_R_Shoulder_JNT/Gargoyles_ref_R_Elbow_JNT/Gargoyles_ref_R_Hand_JNT/Gargoyles_ref_GB_L_HAND_JNT1/Gargoyles_ref_R_Thumb_1_JNT/Gargoyles_ref_R_Thumb_2_JNT/Gargoyles_ref_R_Thumb_dunno_JNT/Gargoyles_ref_R_Thumb_Tip
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Tail_1_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Tail_1_JNT/Gargoyles_ref_Tail_2_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Tail_1_JNT/Gargoyles_ref_Tail_2_JNT/Gargoyles_ref_Tail_3_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Tail_1_JNT/Gargoyles_ref_Tail_2_JNT/Gargoyles_ref_Tail_3_JNT/Gargoyles_ref_Tail_4_JNT
+        weight: 1
+      - path: Gargoyles_ref_World_NODE/Gargoyles_ref_Main_JNT/Gargoyles_ref_Tail_1_JNT/Gargoyles_ref_Tail_2_JNT/Gargoyles_ref_Tail_3_JNT/Gargoyles_ref_Tail_4_JNT/Gargoyles_ref_Tail_Tip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

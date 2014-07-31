@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 676f418e481e12b4b8bce27d72cf0284
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tileLight: {fileID: 10800000, guid: 0aef49bfcb8d3a64381f058136e2fab8, type: 2}
+  - loadedTileLight: {instanceID: 0}
+  - Player1Object: {instanceID: 0}
+  - Player1Script: {instanceID: 0}
+  - Player2Object: {instanceID: 0}
+  - Player2Script: {instanceID: 0}
+  - LoadedPlayerScript: {instanceID: 0}
+  - prevLoadedUnitScript: {instanceID: 0}
+  - MouseOverBox: {instanceID: 0}
+  - SelectionBoxCast: {instanceID: 0}
+  - SelectionBox: {instanceID: 0}
+  - SpawnableBox: {instanceID: 0}
+  - SpawnableBoxCast: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

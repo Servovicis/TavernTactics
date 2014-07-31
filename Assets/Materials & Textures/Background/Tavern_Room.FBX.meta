@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 02e64d973ac90f44399ea9cf4f4505a1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 'Bar '
+    100002: Beams
+    100004: candle
+    100006: CANDLE HOLDER
+    100008: CANDLE HOLDER001
+    100010: CANDLE HOLDER002
+    100012: CANDLE HOLDER003
+    100014: CANDLE HOLDER004
+    100016: Candle Wall Mount
+    100018: Candle Wall Mount001
+    100020: Candle Wall Mount002
+    100022: Candle Wall Mount003
+    100024: Candle Wall Mount004
+    100026: candle001
+    100028: candle002
+    100030: candle003
+    100032: candle004
+    100034: Mug
+    100036: Mug 1
+    100038: Room
+    100040: //RootNode
+    400000: 'Bar '
+    400002: Beams
+    400004: candle
+    400006: CANDLE HOLDER
+    400008: CANDLE HOLDER001
+    400010: CANDLE HOLDER002
+    400012: CANDLE HOLDER003
+    400014: CANDLE HOLDER004
+    400016: Candle Wall Mount
+    400018: Candle Wall Mount001
+    400020: Candle Wall Mount002
+    400022: Candle Wall Mount003
+    400024: Candle Wall Mount004
+    400026: candle001
+    400028: candle002
+    400030: candle003
+    400032: candle004
+    400034: Mug
+    400036: Mug 1
+    400038: Room
+    400040: //RootNode
+    2300000: 'Bar '
+    2300002: Beams
+    2300004: candle
+    2300006: CANDLE HOLDER
+    2300008: CANDLE HOLDER001
+    2300010: CANDLE HOLDER002
+    2300012: CANDLE HOLDER003
+    2300014: CANDLE HOLDER004
+    2300016: Candle Wall Mount
+    2300018: Candle Wall Mount001
+    2300020: Candle Wall Mount002
+    2300022: Candle Wall Mount003
+    2300024: Candle Wall Mount004
+    2300026: candle001
+    2300028: candle002
+    2300030: candle003
+    2300032: candle004
+    2300034: Mug
+    2300036: Mug 1
+    2300038: Room
+    3300000: 'Bar '
+    3300002: Beams
+    3300004: candle
+    3300006: CANDLE HOLDER
+    3300008: CANDLE HOLDER001
+    3300010: CANDLE HOLDER002
+    3300012: CANDLE HOLDER003
+    3300014: CANDLE HOLDER004
+    3300016: Candle Wall Mount
+    3300018: Candle Wall Mount001
+    3300020: Candle Wall Mount002
+    3300022: Candle Wall Mount003
+    3300024: Candle Wall Mount004
+    3300026: candle001
+    3300028: candle002
+    3300030: candle003
+    3300032: candle004
+    3300034: Mug
+    3300036: Mug 1
+    3300038: Room
+    4300000: Beams
+    4300002: 'Bar '
+    4300004: CANDLE HOLDER
+    4300006: Mug
+    4300008: Mug
+    4300010: candle
+    4300012: Room
+    4300014: Candle Wall Mount
+    4300016: Candle Wall Mount001
+    4300018: CANDLE HOLDER001
+    4300020: candle001
+    4300022: Candle Wall Mount002
+    4300024: CANDLE HOLDER002
+    4300026: candle002
+    4300028: Candle Wall Mount003
+    4300030: CANDLE HOLDER003
+    4300032: candle003
+    4300034: Candle Wall Mount004
+    4300036: candle004
+    4300038: CANDLE HOLDER004
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

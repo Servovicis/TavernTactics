@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 81029e7b2410bf84f9bf7eb421e71701
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: left
+    100002: //RootNode
+    100004: Unicorn_ref___CNT1
+    100006: Unicorn_ref__CNT1
+    100008: Unicorn_ref__Object002
+    100010: Unicorn_ref__Plane005
+    100012: Unicorn_ref__Torso1
+    100014: Unicorn_ref__transform1
+    100016: Unicorn_ref__transform1 1
+    100018: Unicorn_ref__transform2
+    100020: Unicorn_ref_Armor_JNT
+    100022: Unicorn_ref_Cylinder
+    100024: Unicorn_ref_Cylinder002
+    100026: Unicorn_ref_GB_L_ARM
+    100028: Unicorn_ref_GB_L_ARM1
+    100030: Unicorn_ref_GB_L_ARM_FK
+    100032: Unicorn_ref_GB_L_ARM_FK1
+    100034: Unicorn_ref_GB_L_ARM_ik
+    100036: Unicorn_ref_GB_L_ARM_ik1
+    100038: Unicorn_ref_Head_JNT
+    100040: Unicorn_ref_Head_Tip
+    100042: Unicorn_ref_L_BAll_JNT
+    100044: Unicorn_ref_L_CLAV_JNT
+    100046: Unicorn_ref_L_Elbow_FK
+    100048: Unicorn_ref_L_Elbow_IK
+    100050: Unicorn_ref_L_Elbow_JNT
+    100052: Unicorn_ref_L_HAnd_FK
+    100054: Unicorn_ref_L_HAnd_IK
+    100056: Unicorn_ref_L_HAnd_JNT
+    100058: Unicorn_ref_L_Hip_JNT
+    100060: Unicorn_ref_L_Knee_JNT
+    100062: Unicorn_ref_L_MiddleFinger01_JNT
+    100064: Unicorn_ref_L_MiddleFinger02_JNT
+    100066: Unicorn_ref_L_MiddleFinger03_JNT
+    100068: Unicorn_ref_L_MiddleFinger_Tip
+    100070: Unicorn_ref_L_Pinky01_JNT
+    100072: Unicorn_ref_L_Pinky02_JNT
+    100074: Unicorn_ref_L_Pinky03_JNT
+    100076: Unicorn_ref_L_Pinky_Tip
+    100078: Unicorn_ref_L_Shoulder_FK
+    100080: Unicorn_ref_L_Shoulder_IK
+    100082: Unicorn_ref_L_Shoulder_JNT
+    100084: Unicorn_ref_L_Shoulder_pat_JNT
+    100086: Unicorn_ref_L_Thumb01_JNT
+    100088: Unicorn_ref_L_Thumb02_JNT
+    100090: Unicorn_ref_L_Thumb_Tip
+    100092: Unicorn_ref_L_Tippy_Tip
+    100094: Unicorn_ref_L_Toe_JNT
+    100096: Unicorn_ref_Main_JNT
+    100098: Unicorn_ref_Neck_JNT
+    100100: Unicorn_ref_Object001
+    100102: Unicorn_ref_Object002
+    100104: Unicorn_ref_Plane005
+    100106: Unicorn_ref_R_BAll_JNT
+    100108: Unicorn_ref_R_CLAV_JNT
+    100110: Unicorn_ref_R_Elbow_FK
+    100112: Unicorn_ref_R_Elbow_IK
+    100114: Unicorn_ref_R_Elbow_JNT
+    100116: Unicorn_ref_R_HAnd_FK
+    100118: Unicorn_ref_R_HAnd_IK
+    100120: Unicorn_ref_R_HAnd_JNT
+    100122: Unicorn_ref_R_Hip_JNT
+    100124: Unicorn_ref_R_Knee_JNT
+    100126: Unicorn_ref_R_MiddleFinger01_JNT
+    100128: Unicorn_ref_R_MiddleFinger02_JNT
+    100130: Unicorn_ref_R_MiddleFinger03_JNT
+    100132: Unicorn_ref_R_MiddleFinger_Tip
+    100134: Unicorn_ref_R_Pinky01_JNT
+    100136: Unicorn_ref_R_Pinky02_JNT
+    100138: Unicorn_ref_R_Pinky03_JNT
+    100140: Unicorn_ref_R_Pinky_Tip
+    100142: Unicorn_ref_R_Shoulder_FK
+    100144: Unicorn_ref_R_Shoulder_IK
+    100146: Unicorn_ref_R_Shoulder_JNT
+    100148: Unicorn_ref_R_Shoulder_pat_JNT
+    100150: Unicorn_ref_R_Thumb01_JNT
+    100152: Unicorn_ref_R_Thumb02_JNT
+    100154: Unicorn_ref_R_Thumb_Tip
+    100156: Unicorn_ref_R_Tippy_Tip
+    100158: Unicorn_ref_R_Toe_JNT
+    100160: Unicorn_ref_Spine01_JNT
+    100162: Unicorn_ref_Spine02_JNT
+    100164: Unicorn_ref_Spine03_JNT
+    100166: Unicorn_ref_Torso
+    100168: Unicorn_ref_Torso1
+    100170: Unicorn_ref_transform1
+    100172: Unicorn_ref_Unicorn
+    100174: Unicorn_ref_Unicorn_Head001
+    100176: Unicorn_ref_Weapon_BOT_JNT
+    100178: Unicorn_ref_Weapon_Main_JNT
+    100180: Unicorn_ref_Weapon_MID_JNT
+    100182: Unicorn_ref_Weapon_TOP_JNT
+    100184: Unicorn_ref_WeaponG
+    100186: Unicorn_ref_World_NODE
+    400000: left
+    400002: //RootNode
+    400004: Unicorn_ref___CNT1
+    400006: Unicorn_ref__CNT1
+    400008: Unicorn_ref__Object002
+    400010: Unicorn_ref__Plane005
+    400012: Unicorn_ref__Torso1
+    400014: Unicorn_ref__transform1
+    400016: Unicorn_ref__transform1 1
+    400018: Unicorn_ref__transform2
+    400020: Unicorn_ref_Armor_JNT
+    400022: Unicorn_ref_Cylinder
+    400024: Unicorn_ref_Cylinder002
+    400026: Unicorn_ref_GB_L_ARM
+    400028: Unicorn_ref_GB_L_ARM1
+    400030: Unicorn_ref_GB_L_ARM_FK
+    400032: Unicorn_ref_GB_L_ARM_FK1
+    400034: Unicorn_ref_GB_L_ARM_ik
+    400036: Unicorn_ref_GB_L_ARM_ik1
+    400038: Unicorn_ref_Head_JNT
+    400040: Unicorn_ref_Head_Tip
+    400042: Unicorn_ref_L_BAll_JNT
+    400044: Unicorn_ref_L_CLAV_JNT
+    400046: Unicorn_ref_L_Elbow_FK
+    400048: Unicorn_ref_L_Elbow_IK
+    400050: Unicorn_ref_L_Elbow_JNT
+    400052: Unicorn_ref_L_HAnd_FK
+    400054: Unicorn_ref_L_HAnd_IK
+    400056: Unicorn_ref_L_HAnd_JNT
+    400058: Unicorn_ref_L_Hip_JNT
+    400060: Unicorn_ref_L_Knee_JNT
+    400062: Unicorn_ref_L_MiddleFinger01_JNT
+    400064: Unicorn_ref_L_MiddleFinger02_JNT
+    400066: Unicorn_ref_L_MiddleFinger03_JNT
+    400068: Unicorn_ref_L_MiddleFinger_Tip
+    400070: Unicorn_ref_L_Pinky01_JNT
+    400072: Unicorn_ref_L_Pinky02_JNT
+    400074: Unicorn_ref_L_Pinky03_JNT
+    400076: Unicorn_ref_L_Pinky_Tip
+    400078: Unicorn_ref_L_Shoulder_FK
+    400080: Unicorn_ref_L_Shoulder_IK
+    400082: Unicorn_ref_L_Shoulder_JNT
+    400084: Unicorn_ref_L_Shoulder_pat_JNT
+    400086: Unicorn_ref_L_Thumb01_JNT
+    400088: Unicorn_ref_L_Thumb02_JNT
+    400090: Unicorn_ref_L_Thumb_Tip
+    400092: Unicorn_ref_L_Tippy_Tip
+    400094: Unicorn_ref_L_Toe_JNT
+    400096: Unicorn_ref_Main_JNT
+    400098: Unicorn_ref_Neck_JNT
+    400100: Unicorn_ref_Object001
+    400102: Unicorn_ref_Object002
+    400104: Unicorn_ref_Plane005
+    400106: Unicorn_ref_R_BAll_JNT
+    400108: Unicorn_ref_R_CLAV_JNT
+    400110: Unicorn_ref_R_Elbow_FK
+    400112: Unicorn_ref_R_Elbow_IK
+    400114: Unicorn_ref_R_Elbow_JNT
+    400116: Unicorn_ref_R_HAnd_FK
+    400118: Unicorn_ref_R_HAnd_IK
+    400120: Unicorn_ref_R_HAnd_JNT
+    400122: Unicorn_ref_R_Hip_JNT
+    400124: Unicorn_ref_R_Knee_JNT
+    400126: Unicorn_ref_R_MiddleFinger01_JNT
+    400128: Unicorn_ref_R_MiddleFinger02_JNT
+    400130: Unicorn_ref_R_MiddleFinger03_JNT
+    400132: Unicorn_ref_R_MiddleFinger_Tip
+    400134: Unicorn_ref_R_Pinky01_JNT
+    400136: Unicorn_ref_R_Pinky02_JNT
+    400138: Unicorn_ref_R_Pinky03_JNT
+    400140: Unicorn_ref_R_Pinky_Tip
+    400142: Unicorn_ref_R_Shoulder_FK
+    400144: Unicorn_ref_R_Shoulder_IK
+    400146: Unicorn_ref_R_Shoulder_JNT
+    400148: Unicorn_ref_R_Shoulder_pat_JNT
+    400150: Unicorn_ref_R_Thumb01_JNT
+    400152: Unicorn_ref_R_Thumb02_JNT
+    400154: Unicorn_ref_R_Thumb_Tip
+    400156: Unicorn_ref_R_Tippy_Tip
+    400158: Unicorn_ref_R_Toe_JNT
+    400160: Unicorn_ref_Spine01_JNT
+    400162: Unicorn_ref_Spine02_JNT
+    400164: Unicorn_ref_Spine03_JNT
+    400166: Unicorn_ref_Torso
+    400168: Unicorn_ref_Torso1
+    400170: Unicorn_ref_transform1
+    400172: Unicorn_ref_Unicorn
+    400174: Unicorn_ref_Unicorn_Head001
+    400176: Unicorn_ref_Weapon_BOT_JNT
+    400178: Unicorn_ref_Weapon_Main_JNT
+    400180: Unicorn_ref_Weapon_MID_JNT
+    400182: Unicorn_ref_Weapon_TOP_JNT
+    400184: Unicorn_ref_WeaponG
+    400186: Unicorn_ref_World_NODE
+    2300000: Unicorn_ref__Object002
+    2300002: Unicorn_ref__Plane005
+    2300004: Unicorn_ref_Cylinder
+    3300000: Unicorn_ref__Object002
+    3300002: Unicorn_ref__Plane005
+    3300004: Unicorn_ref_Cylinder
+    4300000: Unicorn_ref_Cylinder002
+    4300002: Unicorn_ref_Object001
+    4300004: Unicorn_ref_Object002
+    4300006: Unicorn_ref_Plane005
+    4300008: Unicorn_ref_Unicorn
+    4300010: Unicorn_ref_Cylinder
+    4300012: Unicorn_ref__Object002
+    4300014: Unicorn_ref__Plane005
+    7400000: defense
+    9500000: //RootNode
+    13700000: Unicorn_ref_Cylinder002
+    13700002: Unicorn_ref_Object001
+    13700004: Unicorn_ref_Object002
+    13700006: Unicorn_ref_Plane005
+    13700008: Unicorn_ref_Unicorn
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: defense
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: Unicorn_ref___CNT1
+        weight: 1
+      - path: Unicorn_ref__CNT1
+        weight: 1
+      - path: Unicorn_ref__Object002
+        weight: 1
+      - path: Unicorn_ref__Object002/Unicorn_ref__Plane005
+        weight: 1
+      - path: Unicorn_ref__Torso1
+        weight: 1
+      - path: Unicorn_ref__Torso1/Unicorn_ref__transform1 1
+        weight: 1
+      - path: Unicorn_ref_Cylinder
+        weight: 1
+      - path: Unicorn_ref_Cylinder002
+        weight: 1
+      - path: Unicorn_ref_Object001
+        weight: 1
+      - path: Unicorn_ref_Object002
+        weight: 1
+      - path: Unicorn_ref_Object002/Unicorn_ref_Plane005
+        weight: 1
+      - path: Unicorn_ref_Torso
+        weight: 1
+      - path: Unicorn_ref_Torso/Unicorn_ref_transform1
+        weight: 1
+      - path: Unicorn_ref_Torso1
+        weight: 1
+      - path: Unicorn_ref_Torso1/Unicorn_ref__transform1
+        weight: 1
+      - path: Unicorn_ref_Unicorn
+        weight: 1
+      - path: Unicorn_ref_Unicorn_Head001
+        weight: 1
+      - path: Unicorn_ref_Unicorn_Head001/Unicorn_ref__transform2
+        weight: 1
+      - path: Unicorn_ref_World_NODE
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_L_Hip_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_L_Hip_JNT/Unicorn_ref_L_Knee_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_L_Hip_JNT/Unicorn_ref_L_Knee_JNT/Unicorn_ref_L_BAll_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_L_Hip_JNT/Unicorn_ref_L_Knee_JNT/Unicorn_ref_L_BAll_JNT/Unicorn_ref_L_Toe_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_L_Hip_JNT/Unicorn_ref_L_Knee_JNT/Unicorn_ref_L_BAll_JNT/Unicorn_ref_L_Toe_JNT/Unicorn_ref_L_Tippy_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_R_Hip_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_R_Hip_JNT/Unicorn_ref_R_Knee_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_R_Hip_JNT/Unicorn_ref_R_Knee_JNT/Unicorn_ref_R_BAll_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_R_Hip_JNT/Unicorn_ref_R_Knee_JNT/Unicorn_ref_R_BAll_JNT/Unicorn_ref_R_Toe_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_R_Hip_JNT/Unicorn_ref_R_Knee_JNT/Unicorn_ref_R_BAll_JNT/Unicorn_ref_R_Toe_JNT/Unicorn_ref_R_Tippy_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Armor_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_MiddleFinger01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_MiddleFinger01_JNT/Unicorn_ref_L_MiddleFinger02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_MiddleFinger01_JNT/Unicorn_ref_L_MiddleFinger02_JNT/Unicorn_ref_L_MiddleFinger03_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_MiddleFinger01_JNT/Unicorn_ref_L_MiddleFinger02_JNT/Unicorn_ref_L_MiddleFinger03_JNT/Unicorn_ref_L_MiddleFinger_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Pinky01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Pinky01_JNT/Unicorn_ref_L_Pinky02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Pinky01_JNT/Unicorn_ref_L_Pinky02_JNT/Unicorn_ref_L_Pinky03_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Pinky01_JNT/Unicorn_ref_L_Pinky02_JNT/Unicorn_ref_L_Pinky03_JNT/Unicorn_ref_L_Pinky_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Thumb01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Thumb01_JNT/Unicorn_ref_L_Thumb02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM/Unicorn_ref_L_Shoulder_JNT/Unicorn_ref_L_Elbow_JNT/Unicorn_ref_L_HAnd_JNT/Unicorn_ref_L_Thumb01_JNT/Unicorn_ref_L_Thumb02_JNT/Unicorn_ref_L_Thumb_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK/Unicorn_ref_L_Shoulder_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK/Unicorn_ref_L_Shoulder_FK/Unicorn_ref_L_Elbow_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK/Unicorn_ref_L_Shoulder_FK/Unicorn_ref_L_Elbow_FK/Unicorn_ref_L_HAnd_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik/Unicorn_ref_L_Shoulder_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik/Unicorn_ref_L_Shoulder_IK/Unicorn_ref_L_Elbow_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik/Unicorn_ref_L_Shoulder_IK/Unicorn_ref_L_Elbow_IK/Unicorn_ref_L_HAnd_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_L_CLAV_JNT/Unicorn_ref_L_Shoulder_pat_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_Neck_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_Neck_JNT/Unicorn_ref_Head_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_Neck_JNT/Unicorn_ref_Head_JNT/Unicorn_ref_Head_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_MiddleFinger01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_MiddleFinger01_JNT/Unicorn_ref_R_MiddleFinger02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_MiddleFinger01_JNT/Unicorn_ref_R_MiddleFinger02_JNT/Unicorn_ref_R_MiddleFinger03_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_MiddleFinger01_JNT/Unicorn_ref_R_MiddleFinger02_JNT/Unicorn_ref_R_MiddleFinger03_JNT/Unicorn_ref_R_MiddleFinger_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Pinky01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Pinky01_JNT/Unicorn_ref_R_Pinky02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Pinky01_JNT/Unicorn_ref_R_Pinky02_JNT/Unicorn_ref_R_Pinky03_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Pinky01_JNT/Unicorn_ref_R_Pinky02_JNT/Unicorn_ref_R_Pinky03_JNT/Unicorn_ref_R_Pinky_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Thumb01_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Thumb01_JNT/Unicorn_ref_R_Thumb02_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM1/Unicorn_ref_R_Shoulder_JNT/Unicorn_ref_R_Elbow_JNT/Unicorn_ref_R_HAnd_JNT/Unicorn_ref_R_Thumb01_JNT/Unicorn_ref_R_Thumb02_JNT/Unicorn_ref_R_Thumb_Tip
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK1
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK1/Unicorn_ref_R_Shoulder_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK1/Unicorn_ref_R_Shoulder_FK/Unicorn_ref_R_Elbow_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_FK1/Unicorn_ref_R_Shoulder_FK/Unicorn_ref_R_Elbow_FK/Unicorn_ref_R_HAnd_FK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik1
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik1/Unicorn_ref_R_Shoulder_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik1/Unicorn_ref_R_Shoulder_IK/Unicorn_ref_R_Elbow_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_GB_L_ARM_ik1/Unicorn_ref_R_Shoulder_IK/Unicorn_ref_R_Elbow_IK/Unicorn_ref_R_HAnd_IK
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Main_JNT/Unicorn_ref_Spine01_JNT/Unicorn_ref_Spine02_JNT/Unicorn_ref_Spine03_JNT/Unicorn_ref_R_CLAV_JNT/Unicorn_ref_R_Shoulder_pat_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Weapon_Main_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Weapon_Main_JNT/Unicorn_ref_WeaponG
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Weapon_Main_JNT/Unicorn_ref_WeaponG/Unicorn_ref_Weapon_BOT_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Weapon_Main_JNT/Unicorn_ref_WeaponG/Unicorn_ref_Weapon_MID_JNT
+        weight: 1
+      - path: Unicorn_ref_World_NODE/Unicorn_ref_Weapon_Main_JNT/Unicorn_ref_WeaponG/Unicorn_ref_Weapon_TOP_JNT
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

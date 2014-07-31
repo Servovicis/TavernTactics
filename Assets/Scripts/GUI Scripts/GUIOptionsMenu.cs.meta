@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 70804822df14dad48bb909c1a7f30872
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - customSkin: {fileID: 11400000, guid: 005498b499fbae84980555d9f1c47fbe, type: 2}
+  - background: {instanceID: 0}
+  - optionsText: {instanceID: 0}
+  - musicText: {instanceID: 0}
+  - soundText: {instanceID: 0}
+  - musicValueText: {instanceID: 0}
+  - soundValueText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

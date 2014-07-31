@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 25053627ce782d84089aabd0d4edfae7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Back_L_Ball_1_JNT
+    100002: Back_L_Ball_2_JNT
+    100004: Back_L_Knee_JNT
+    100006: Back_L_LEG_JNT
+    100008: Back_L_Tippy_TIP
+    100010: Back_L_Toe_JNT
+    100012: Back_R_Ball_1_JNT
+    100014: Back_R_Ball_2_JNT
+    100016: Back_R_Knee_JNT
+    100018: Back_R_LEG_JNT
+    100020: Back_R_Tippy_TIP
+    100022: Back_R_Toe_JNT
+    100024: BOttom_JAW_JNT
+    100026: BOttom_JAW_Left_JNT
+    100028: BOttom_JAW_Right_JNT
+    100030: BOTTOM_JAW_TIP
+    100032: BOTTOM_JAW_TIP 1
+    100034: BOTTOM_JAW_TIP 2
+    100036: Butt_JNT
+    100038: Butt_Tip
+    100040: Cerberus
+    100042: GB_left_head
+    100044: GB_Middle_head_
+    100046: GB_Right_head
+    100048: Head_JNT
+    100050: Head_Left_JNT
+    100052: Head_Right_JNT
+    100054: Head_Tip
+    100056: Head_Tip 1
+    100058: Head_Tip 2
+    100060: //RootNode
+    100062: L_FRONT_Ball_JNT
+    100064: L_FRONT_Knee_JNT
+    100066: L_FRONT_LEG_JNT
+    100068: L_FRONT_Tippy_TIP
+    100070: L_FRONT_Toe_JNT
+    100072: Main_JNT
+    100074: Neck_1_JNT
+    100076: Neck_1_Right_JNT
+    100078: Neck_LEFT_JNT
+    100080: R_FRONT_Ball_JNT
+    100082: R_FRONT_Knee_JNT
+    100084: R_FRONT_LEG_JNT
+    100086: R_FRONT_Tippy_TIP
+    100088: R_FRONT_Toe_JNT
+    100090: Spine_1_JNT
+    100092: Spine_2_JNT
+    100094: Spine_3_JNT
+    100096: Spine_4_JNT
+    100098: tail_01_JNT
+    100100: tail_02_JNT
+    100102: tail_TIP
+    100104: Top_JAW_JNT
+    100106: Top_JAW_Right_JNT
+    100108: Top_JAW_Tip
+    100110: Top_JAW_Tip 1
+    100112: Top_JAW_Tip 2
+    100114: Top_Left_JAW_JNT
+    100116: Toung1_JNT
+    100118: Toung1_LEFT_JNT
+    100120: Toung1_Right_JNT
+    100122: Toung2_JNT
+    100124: Toung2_LEFt_JNT
+    100126: Toung2_Right_JNT
+    100128: Toung_JNT
+    100130: Toung_Left_JNT
+    100132: Toung_Right_JNT
+    100134: Toung_Tip
+    100136: Toung_Tip 1
+    100138: Toung_Tip 2
+    100140: World_NODE
+    400000: Back_L_Ball_1_JNT
+    400002: Back_L_Ball_2_JNT
+    400004: Back_L_Knee_JNT
+    400006: Back_L_LEG_JNT
+    400008: Back_L_Tippy_TIP
+    400010: Back_L_Toe_JNT
+    400012: Back_R_Ball_1_JNT
+    400014: Back_R_Ball_2_JNT
+    400016: Back_R_Knee_JNT
+    400018: Back_R_LEG_JNT
+    400020: Back_R_Tippy_TIP
+    400022: Back_R_Toe_JNT
+    400024: BOttom_JAW_JNT
+    400026: BOttom_JAW_Left_JNT
+    400028: BOttom_JAW_Right_JNT
+    400030: BOTTOM_JAW_TIP
+    400032: BOTTOM_JAW_TIP 1
+    400034: BOTTOM_JAW_TIP 2
+    400036: Butt_JNT
+    400038: Butt_Tip
+    400040: Cerberus
+    400042: GB_left_head
+    400044: GB_Middle_head_
+    400046: GB_Right_head
+    400048: Head_JNT
+    400050: Head_Left_JNT
+    400052: Head_Right_JNT
+    400054: Head_Tip
+    400056: Head_Tip 1
+    400058: Head_Tip 2
+    400060: //RootNode
+    400062: L_FRONT_Ball_JNT
+    400064: L_FRONT_Knee_JNT
+    400066: L_FRONT_LEG_JNT
+    400068: L_FRONT_Tippy_TIP
+    400070: L_FRONT_Toe_JNT
+    400072: Main_JNT
+    400074: Neck_1_JNT
+    400076: Neck_1_Right_JNT
+    400078: Neck_LEFT_JNT
+    400080: R_FRONT_Ball_JNT
+    400082: R_FRONT_Knee_JNT
+    400084: R_FRONT_LEG_JNT
+    400086: R_FRONT_Tippy_TIP
+    400088: R_FRONT_Toe_JNT
+    400090: Spine_1_JNT
+    400092: Spine_2_JNT
+    400094: Spine_3_JNT
+    400096: Spine_4_JNT
+    400098: tail_01_JNT
+    400100: tail_02_JNT
+    400102: tail_TIP
+    400104: Top_JAW_JNT
+    400106: Top_JAW_Right_JNT
+    400108: Top_JAW_Tip
+    400110: Top_JAW_Tip 1
+    400112: Top_JAW_Tip 2
+    400114: Top_Left_JAW_JNT
+    400116: Toung1_JNT
+    400118: Toung1_LEFT_JNT
+    400120: Toung1_Right_JNT
+    400122: Toung2_JNT
+    400124: Toung2_LEFt_JNT
+    400126: Toung2_Right_JNT
+    400128: Toung_JNT
+    400130: Toung_Left_JNT
+    400132: Toung_Right_JNT
+    400134: Toung_Tip
+    400136: Toung_Tip 1
+    400138: Toung_Tip 2
+    400140: World_NODE
+    4300000: Cerberus
+    7400000: Idle
+    9500000: //RootNode
+    13700000: Cerberus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cerberus
+        weight: 1
+      - path: World_NODE
+        weight: 1
+      - path: World_NODE/Main_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/BOttom_JAW_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/BOttom_JAW_Right_JNT/BOTTOM_JAW_TIP
+          2
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Head_Tip
+          2
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Top_JAW_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Top_JAW_Right_JNT/Top_JAW_Tip
+          2
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Toung_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Toung_Right_JNT/Toung1_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Toung_Right_JNT/Toung1_Right_JNT/Toung2_Right_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_left_head/Neck_1_Right_JNT/Head_Right_JNT/Toung_Right_JNT/Toung1_Right_JNT/Toung2_Right_JNT/Toung_Tip
+          2
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/BOttom_JAW_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/BOttom_JAW_JNT/BOTTOM_JAW_TIP
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Head_Tip
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Top_JAW_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Top_JAW_JNT/Top_JAW_Tip
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Toung_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Toung_JNT/Toung1_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Toung_JNT/Toung1_JNT/Toung2_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Middle_head_/Neck_1_JNT/Head_JNT/Toung_JNT/Toung1_JNT/Toung2_JNT/Toung_Tip
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/BOttom_JAW_Left_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/BOttom_JAW_Left_JNT/BOTTOM_JAW_TIP
+          1
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Head_Tip
+          1
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Top_Left_JAW_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Top_Left_JAW_JNT/Top_JAW_Tip
+          1
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Toung_Left_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Toung_Left_JNT/Toung1_LEFT_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Toung_Left_JNT/Toung1_LEFT_JNT/Toung2_LEFt_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/GB_Right_head/Neck_LEFT_JNT/Head_Left_JNT/Toung_Left_JNT/Toung1_LEFT_JNT/Toung2_LEFt_JNT/Toung_Tip
+          1
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/L_FRONT_LEG_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/L_FRONT_LEG_JNT/L_FRONT_Knee_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/L_FRONT_LEG_JNT/L_FRONT_Knee_JNT/L_FRONT_Ball_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/L_FRONT_LEG_JNT/L_FRONT_Knee_JNT/L_FRONT_Ball_JNT/L_FRONT_Toe_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/L_FRONT_LEG_JNT/L_FRONT_Knee_JNT/L_FRONT_Ball_JNT/L_FRONT_Toe_JNT/L_FRONT_Tippy_TIP
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/R_FRONT_LEG_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/R_FRONT_LEG_JNT/R_FRONT_Knee_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/R_FRONT_LEG_JNT/R_FRONT_Knee_JNT/R_FRONT_Ball_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/R_FRONT_LEG_JNT/R_FRONT_Knee_JNT/R_FRONT_Ball_JNT/R_FRONT_Toe_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_1_JNT/Spine_2_JNT/R_FRONT_LEG_JNT/R_FRONT_Knee_JNT/R_FRONT_Ball_JNT/R_FRONT_Toe_JNT/R_FRONT_Tippy_TIP
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT/Back_L_Knee_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT/Back_L_Knee_JNT/Back_L_Ball_1_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT/Back_L_Knee_JNT/Back_L_Ball_1_JNT/Back_L_Ball_2_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT/Back_L_Knee_JNT/Back_L_Ball_1_JNT/Back_L_Ball_2_JNT/Back_L_Toe_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_L_LEG_JNT/Back_L_Knee_JNT/Back_L_Ball_1_JNT/Back_L_Ball_2_JNT/Back_L_Toe_JNT/Back_L_Tippy_TIP
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT/Back_R_Knee_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT/Back_R_Knee_JNT/Back_R_Ball_1_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT/Back_R_Knee_JNT/Back_R_Ball_1_JNT/Back_R_Ball_2_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT/Back_R_Knee_JNT/Back_R_Ball_1_JNT/Back_R_Ball_2_JNT/Back_R_Toe_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Back_R_LEG_JNT/Back_R_Knee_JNT/Back_R_Ball_1_JNT/Back_R_Ball_2_JNT/Back_R_Toe_JNT/Back_R_Tippy_TIP
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Butt_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Butt_JNT/Butt_Tip
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Butt_JNT/tail_01_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Butt_JNT/tail_01_JNT/tail_02_JNT
+        weight: 1
+      - path: World_NODE/Main_JNT/Spine_3_JNT/Spine_4_JNT/Butt_JNT/tail_01_JNT/tail_02_JNT/tail_TIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

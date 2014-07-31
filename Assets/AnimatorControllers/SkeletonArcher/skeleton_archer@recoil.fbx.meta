@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: a2f188114f0a23a419f008f6e2e5389a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arrow_CTRL
+    100002: arrow_JNT
+    100004: arrow_TIP
+    100006: bow_B_01_JNT
+    100008: bow_B_02_JNT
+    100010: bow_B_03_JNT
+    100012: bow_B_04_JNT
+    100014: bow_root_JNT
+    100016: bow_T_01_JNT
+    100018: bow_T_02_JNT
+    100020: bow_T_03_JNT
+    100022: bow_T_04_JNT
+    100024: bow_T_string_JNT
+    100026: head_JNT
+    100028: head_TIP
+    100030: L_ankle_JNT
+    100032: L_ball_JNT
+    100034: L_clav_JNT
+    100036: L_elbw_JNT
+    100038: L_fingers_01_JNT
+    100040: L_fingers_02_JNT
+    100042: L_fingers_03_JNT
+    100044: L_fingers_TIP
+    100046: L_hand_JNT
+    100048: L_hip_JNT
+    100050: L_knee_JNT
+    100052: L_should_JNT
+    100054: L_thigh_JNT
+    100056: L_thumb_01_JNT
+    100058: L_thumb_02_JNT
+    100060: L_thumb_03_JNT
+    100062: L_thumb_TIP
+    100064: L_toe_JNT
+    100066: neck_JNT
+    100068: R_ankle_JNT
+    100070: R_ball_JNT
+    100072: R_clav_JNT
+    100074: R_elbw_JNT
+    100076: R_fingers_01_JNT
+    100078: R_fingers_02_JNT
+    100080: R_fingers_03_JNT
+    100082: R_fingers_TIP
+    100084: R_hand_JNT
+    100086: R_hip_JNT
+    100088: R_knee_JNT
+    100090: R_should_JNT
+    100092: R_thigh_JNT
+    100094: R_thumb_01_JNT
+    100096: R_thumb_02_JNT
+    100098: R_thumb_03_JNT
+    100100: R_thumb_TIP
+    100102: R_toe_JNT
+    100104: root_CTRL
+    100106: root_JNT
+    100108: should_pad_JNT
+    100110: should_pad_TIP
+    100112: //RootNode
+    100114: SkeletonArcher_Arrow
+    100116: SkeletonArcher_Body
+    100118: SkeletonArcher_Bow
+    100120: spine_01_CTRL
+    100122: spine_01_JNT
+    100124: spine_02_CTRL
+    100126: spine_02_JNT
+    100128: spine_03_CTRL
+    100130: spine_03_JNT
+    100132: spine_04_JNT
+    100134: world_CTRL
+    100136: world_node
+    400000: arrow_CTRL
+    400002: arrow_JNT
+    400004: arrow_TIP
+    400006: bow_B_01_JNT
+    400008: bow_B_02_JNT
+    400010: bow_B_03_JNT
+    400012: bow_B_04_JNT
+    400014: bow_root_JNT
+    400016: bow_T_01_JNT
+    400018: bow_T_02_JNT
+    400020: bow_T_03_JNT
+    400022: bow_T_04_JNT
+    400024: bow_T_string_JNT
+    400026: head_JNT
+    400028: head_TIP
+    400030: L_ankle_JNT
+    400032: L_ball_JNT
+    400034: L_clav_JNT
+    400036: L_elbw_JNT
+    400038: L_fingers_01_JNT
+    400040: L_fingers_02_JNT
+    400042: L_fingers_03_JNT
+    400044: L_fingers_TIP
+    400046: L_hand_JNT
+    400048: L_hip_JNT
+    400050: L_knee_JNT
+    400052: L_should_JNT
+    400054: L_thigh_JNT
+    400056: L_thumb_01_JNT
+    400058: L_thumb_02_JNT
+    400060: L_thumb_03_JNT
+    400062: L_thumb_TIP
+    400064: L_toe_JNT
+    400066: neck_JNT
+    400068: R_ankle_JNT
+    400070: R_ball_JNT
+    400072: R_clav_JNT
+    400074: R_elbw_JNT
+    400076: R_fingers_01_JNT
+    400078: R_fingers_02_JNT
+    400080: R_fingers_03_JNT
+    400082: R_fingers_TIP
+    400084: R_hand_JNT
+    400086: R_hip_JNT
+    400088: R_knee_JNT
+    400090: R_should_JNT
+    400092: R_thigh_JNT
+    400094: R_thumb_01_JNT
+    400096: R_thumb_02_JNT
+    400098: R_thumb_03_JNT
+    400100: R_thumb_TIP
+    400102: R_toe_JNT
+    400104: root_CTRL
+    400106: root_JNT
+    400108: should_pad_JNT
+    400110: should_pad_TIP
+    400112: //RootNode
+    400114: SkeletonArcher_Arrow
+    400116: SkeletonArcher_Body
+    400118: SkeletonArcher_Bow
+    400120: spine_01_CTRL
+    400122: spine_01_JNT
+    400124: spine_02_CTRL
+    400126: spine_02_JNT
+    400128: spine_03_CTRL
+    400130: spine_03_JNT
+    400132: spine_04_JNT
+    400134: world_CTRL
+    400136: world_node
+    4300000: SkeletonArcher_Body
+    4300002: SkeletonArcher_Bow
+    4300004: SkeletonArcher_Arrow
+    7400000: recoil
+    9500000: //RootNode
+    13700000: SkeletonArcher_Arrow
+    13700002: SkeletonArcher_Body
+    13700004: SkeletonArcher_Bow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: recoil
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: SkeletonArcher_Arrow
+        weight: 1
+      - path: SkeletonArcher_Body
+        weight: 1
+      - path: SkeletonArcher_Bow
+        weight: 1
+      - path: world_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL/spine_02_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL/spine_02_CTRL/spine_03_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL/spine_02_CTRL/spine_03_CTRL/arrow_CTRL
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL/spine_02_CTRL/spine_03_CTRL/arrow_CTRL/arrow_JNT
+        weight: 1
+      - path: world_CTRL/root_CTRL/spine_01_CTRL/spine_02_CTRL/spine_03_CTRL/arrow_CTRL/arrow_JNT/arrow_TIP
+        weight: 1
+      - path: world_node
+        weight: 1
+      - path: world_node/bow_root_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_B_01_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_B_01_JNT/bow_B_02_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_B_01_JNT/bow_B_02_JNT/bow_B_03_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_B_01_JNT/bow_B_02_JNT/bow_B_03_JNT/bow_B_04_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_T_01_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_T_01_JNT/bow_T_02_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_T_01_JNT/bow_T_02_JNT/bow_T_03_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_T_01_JNT/bow_T_02_JNT/bow_T_03_JNT/bow_T_04_JNT
+        weight: 1
+      - path: world_node/bow_root_JNT/bow_T_string_JNT
+        weight: 1
+      - path: world_node/root_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT/L_thigh_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT/L_thigh_JNT/L_knee_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT/L_thigh_JNT/L_knee_JNT/L_ankle_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT/L_thigh_JNT/L_knee_JNT/L_ankle_JNT/L_ball_JNT
+        weight: 1
+      - path: world_node/root_JNT/L_hip_JNT/L_thigh_JNT/L_knee_JNT/L_ankle_JNT/L_ball_JNT/L_toe_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT/R_thigh_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT/R_thigh_JNT/R_knee_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT/R_thigh_JNT/R_knee_JNT/R_ankle_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT/R_thigh_JNT/R_knee_JNT/R_ankle_JNT/R_ball_JNT
+        weight: 1
+      - path: world_node/root_JNT/R_hip_JNT/R_thigh_JNT/R_knee_JNT/R_ankle_JNT/R_ball_JNT/R_toe_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_fingers_01_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_fingers_01_JNT/L_fingers_02_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_fingers_01_JNT/L_fingers_02_JNT/L_fingers_03_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_fingers_01_JNT/L_fingers_02_JNT/L_fingers_03_JNT/L_fingers_TIP
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_thumb_01_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_thumb_01_JNT/L_thumb_02_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_thumb_01_JNT/L_thumb_02_JNT/L_thumb_03_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/L_elbw_JNT/L_hand_JNT/L_thumb_01_JNT/L_thumb_02_JNT/L_thumb_03_JNT/L_thumb_TIP
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/should_pad_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/L_clav_JNT/L_should_JNT/should_pad_JNT/should_pad_TIP
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/neck_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/neck_JNT/head_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/neck_JNT/head_JNT/head_TIP
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_fingers_01_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_fingers_01_JNT/R_fingers_02_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_fingers_01_JNT/R_fingers_02_JNT/R_fingers_03_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_fingers_01_JNT/R_fingers_02_JNT/R_fingers_03_JNT/R_fingers_TIP
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_thumb_01_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_thumb_01_JNT/R_thumb_02_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_thumb_01_JNT/R_thumb_02_JNT/R_thumb_03_JNT
+        weight: 1
+      - path: world_node/root_JNT/spine_01_JNT/spine_02_JNT/spine_03_JNT/spine_04_JNT/R_clav_JNT/R_should_JNT/R_elbw_JNT/R_hand_JNT/R_thumb_01_JNT/R_thumb_02_JNT/R_thumb_03_JNT/R_thumb_TIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

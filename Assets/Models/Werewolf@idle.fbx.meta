@@ -1,0 +1,693 @@
+fileFormatVersion: 2
+guid: eaebc5b40b156684d8f96d31ae54a08a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: werewolf_rig_garbage_GRP
+    100004: werewolf_rig_garbage_GRP1
+    100006: werewolf_rig_head_JNT
+    100008: werewolf_rig_head_TIP
+    100010: werewolf_rig_jaw_JNT
+    100012: werewolf_rig_jaw_TIP
+    100014: werewolf_rig_L_ankle_JNT
+    100016: werewolf_rig_L_clav_JNT
+    100018: werewolf_rig_L_ear_JNT
+    100020: werewolf_rig_L_ear_TIP
+    100022: werewolf_rig_L_elbw_JNT
+    100024: werewolf_rig_L_foot_JNT
+    100026: werewolf_rig_L_foot_TIP
+    100028: werewolf_rig_L_hip_JNT
+    100030: werewolf_rig_L_index_01_JNT
+    100032: werewolf_rig_L_index_02_JNT
+    100034: werewolf_rig_L_index_03_JNT
+    100036: werewolf_rig_L_index_TIP
+    100038: werewolf_rig_L_knee_JNT
+    100040: werewolf_rig_L_middle_01_JNT
+    100042: werewolf_rig_L_middle_02_JNT
+    100044: werewolf_rig_L_middle_03_JNT
+    100046: werewolf_rig_L_middle_TIP
+    100048: werewolf_rig_L_pinky_01_JNT
+    100050: werewolf_rig_L_pinky_02_JNT
+    100052: werewolf_rig_L_pinky_03_JNT
+    100054: werewolf_rig_L_pinky_TIP
+    100056: werewolf_rig_L_shoul_JNT
+    100058: werewolf_rig_L_thigh_JNT
+    100060: werewolf_rig_L_thumb_01_JNT
+    100062: werewolf_rig_L_thumb_02_JNT
+    100064: werewolf_rig_L_thumb_03_JNT
+    100066: werewolf_rig_L_thumb_TIP
+    100068: werewolf_rig_L_wrist_JNT
+    100070: werewolf_rig_neck_JNT
+    100072: werewolf_rig_R_ankle_JNT
+    100074: werewolf_rig_R_clav_JNT
+    100076: werewolf_rig_R_ear_JNT
+    100078: werewolf_rig_R_ear_TIP
+    100080: werewolf_rig_R_elbw_JNT
+    100082: werewolf_rig_R_foot_JNT
+    100084: werewolf_rig_R_foot_TIP
+    100086: werewolf_rig_R_hip_JNT
+    100088: werewolf_rig_R_index_01_JNT
+    100090: werewolf_rig_R_index_02_JNT
+    100092: werewolf_rig_R_index_03_JNT
+    100094: werewolf_rig_R_index_TIP
+    100096: werewolf_rig_R_knee_JNT
+    100098: werewolf_rig_R_middle_01_JNT
+    100100: werewolf_rig_R_middle_02_JNT
+    100102: werewolf_rig_R_middle_03_JNT
+    100104: werewolf_rig_R_middle_TIP
+    100106: werewolf_rig_R_pinky_01_JNT
+    100108: werewolf_rig_R_pinky_02_JNT
+    100110: werewolf_rig_R_pinky_03_JNT
+    100112: werewolf_rig_R_pinky_TIP
+    100114: werewolf_rig_R_shoul_JNT
+    100116: werewolf_rig_R_thigh_JNT
+    100118: werewolf_rig_R_thumb_01_JNT
+    100120: werewolf_rig_R_thumb_02_JNT
+    100122: werewolf_rig_R_thumb_03_JNT
+    100124: werewolf_rig_R_thumb_TIP
+    100126: werewolf_rig_R_wrist_JNT
+    100128: werewolf_rig_root_JNT
+    100130: werewolf_rig_spine_01_JNT
+    100132: werewolf_rig_spine_02_JNT
+    100134: werewolf_rig_spine_03_JNT
+    100136: werewolf_rig_spine_04_JNT
+    100138: werewolf_rig_tail_01_JNT
+    100140: werewolf_rig_tail_02_JNT
+    100142: werewolf_rig_tail_03_JNT
+    100144: werewolf_rig_tail_04_JNT
+    100146: werewolf_rig_tail_TIP
+    100148: werewolf_rig_werewolf
+    100150: werewolf_rig_world_node
+    100152: werewolf_idle_garbage_GRP
+    100154: werewolf_idle_garbage_GRP1
+    100156: werewolf_idle_head_JNT
+    100158: werewolf_idle_head_TIP
+    100160: werewolf_idle_jaw_JNT
+    100162: werewolf_idle_jaw_TIP
+    100164: werewolf_idle_L_ankle_JNT
+    100166: werewolf_idle_L_clav_JNT
+    100168: werewolf_idle_L_ear_JNT
+    100170: werewolf_idle_L_ear_TIP
+    100172: werewolf_idle_L_elbw_JNT
+    100174: werewolf_idle_L_foot_JNT
+    100176: werewolf_idle_L_foot_TIP
+    100178: werewolf_idle_L_hip_JNT
+    100180: werewolf_idle_L_index_01_JNT
+    100182: werewolf_idle_L_index_02_JNT
+    100184: werewolf_idle_L_index_03_JNT
+    100186: werewolf_idle_L_index_TIP
+    100188: werewolf_idle_L_knee_JNT
+    100190: werewolf_idle_L_middle_01_JNT
+    100192: werewolf_idle_L_middle_02_JNT
+    100194: werewolf_idle_L_middle_03_JNT
+    100196: werewolf_idle_L_middle_TIP
+    100198: werewolf_idle_L_pinky_01_JNT
+    100200: werewolf_idle_L_pinky_02_JNT
+    100202: werewolf_idle_L_pinky_03_JNT
+    100204: werewolf_idle_L_pinky_TIP
+    100206: werewolf_idle_L_shoul_JNT
+    100208: werewolf_idle_L_thigh_JNT
+    100210: werewolf_idle_L_thumb_01_JNT
+    100212: werewolf_idle_L_thumb_02_JNT
+    100214: werewolf_idle_L_thumb_03_JNT
+    100216: werewolf_idle_L_thumb_TIP
+    100218: werewolf_idle_L_wrist_JNT
+    100220: werewolf_idle_neck_JNT
+    100222: werewolf_idle_R_ankle_JNT
+    100224: werewolf_idle_R_clav_JNT
+    100226: werewolf_idle_R_ear_JNT
+    100228: werewolf_idle_R_ear_TIP
+    100230: werewolf_idle_R_elbw_JNT
+    100232: werewolf_idle_R_foot_JNT
+    100234: werewolf_idle_R_foot_TIP
+    100236: werewolf_idle_R_hip_JNT
+    100238: werewolf_idle_R_index_01_JNT
+    100240: werewolf_idle_R_index_02_JNT
+    100242: werewolf_idle_R_index_03_JNT
+    100244: werewolf_idle_R_index_TIP
+    100246: werewolf_idle_R_knee_JNT
+    100248: werewolf_idle_R_middle_01_JNT
+    100250: werewolf_idle_R_middle_02_JNT
+    100252: werewolf_idle_R_middle_03_JNT
+    100254: werewolf_idle_R_middle_TIP
+    100256: werewolf_idle_R_pinky_01_JNT
+    100258: werewolf_idle_R_pinky_02_JNT
+    100260: werewolf_idle_R_pinky_03_JNT
+    100262: werewolf_idle_R_pinky_TIP
+    100264: werewolf_idle_R_shoul_JNT
+    100266: werewolf_idle_R_thigh_JNT
+    100268: werewolf_idle_R_thumb_01_JNT
+    100270: werewolf_idle_R_thumb_02_JNT
+    100272: werewolf_idle_R_thumb_03_JNT
+    100274: werewolf_idle_R_thumb_TIP
+    100276: werewolf_idle_R_wrist_JNT
+    100278: werewolf_idle_root_JNT
+    100280: werewolf_idle_spine_01_JNT
+    100282: werewolf_idle_spine_02_JNT
+    100284: werewolf_idle_spine_03_JNT
+    100286: werewolf_idle_spine_04_JNT
+    100288: werewolf_idle_tail_01_JNT
+    100290: werewolf_idle_tail_02_JNT
+    100292: werewolf_idle_tail_03_JNT
+    100294: werewolf_idle_tail_04_JNT
+    100296: werewolf_idle_tail_TIP
+    100298: werewolf_idle_world_node
+    100300: werewolf_skinNEW_garbage_GRP
+    100302: werewolf_skinNEW_garbage_GRP1
+    100304: werewolf_skinNEW_head_JNT
+    100306: werewolf_skinNEW_head_TIP
+    100308: werewolf_skinNEW_jaw_JNT
+    100310: werewolf_skinNEW_jaw_TIP
+    100312: werewolf_skinNEW_L_ankle_JNT
+    100314: werewolf_skinNEW_L_clav_JNT
+    100316: werewolf_skinNEW_L_ear_JNT
+    100318: werewolf_skinNEW_L_ear_TIP
+    100320: werewolf_skinNEW_L_elbw_JNT
+    100322: werewolf_skinNEW_L_foot_JNT
+    100324: werewolf_skinNEW_L_foot_TIP
+    100326: werewolf_skinNEW_L_hip_JNT
+    100328: werewolf_skinNEW_L_index_01_JNT
+    100330: werewolf_skinNEW_L_index_02_JNT
+    100332: werewolf_skinNEW_L_index_03_JNT
+    100334: werewolf_skinNEW_L_index_TIP
+    100336: werewolf_skinNEW_L_knee_JNT
+    100338: werewolf_skinNEW_L_middle_01_JNT
+    100340: werewolf_skinNEW_L_middle_02_JNT
+    100342: werewolf_skinNEW_L_middle_03_JNT
+    100344: werewolf_skinNEW_L_middle_TIP
+    100346: werewolf_skinNEW_L_pinky_01_JNT
+    100348: werewolf_skinNEW_L_pinky_02_JNT
+    100350: werewolf_skinNEW_L_pinky_03_JNT
+    100352: werewolf_skinNEW_L_pinky_TIP
+    100354: werewolf_skinNEW_L_shoul_JNT
+    100356: werewolf_skinNEW_L_thigh_JNT
+    100358: werewolf_skinNEW_L_thumb_01_JNT
+    100360: werewolf_skinNEW_L_thumb_02_JNT
+    100362: werewolf_skinNEW_L_thumb_03_JNT
+    100364: werewolf_skinNEW_L_thumb_TIP
+    100366: werewolf_skinNEW_L_wrist_JNT
+    100368: werewolf_skinNEW_neck_JNT
+    100370: werewolf_skinNEW_R_ankle_JNT
+    100372: werewolf_skinNEW_R_clav_JNT
+    100374: werewolf_skinNEW_R_ear_JNT
+    100376: werewolf_skinNEW_R_ear_TIP
+    100378: werewolf_skinNEW_R_elbw_JNT
+    100380: werewolf_skinNEW_R_foot_JNT
+    100382: werewolf_skinNEW_R_foot_TIP
+    100384: werewolf_skinNEW_R_hip_JNT
+    100386: werewolf_skinNEW_R_index_01_JNT
+    100388: werewolf_skinNEW_R_index_02_JNT
+    100390: werewolf_skinNEW_R_index_03_JNT
+    100392: werewolf_skinNEW_R_index_TIP
+    100394: werewolf_skinNEW_R_knee_JNT
+    100396: werewolf_skinNEW_R_middle_01_JNT
+    100398: werewolf_skinNEW_R_middle_02_JNT
+    100400: werewolf_skinNEW_R_middle_03_JNT
+    100402: werewolf_skinNEW_R_middle_TIP
+    100404: werewolf_skinNEW_R_pinky_01_JNT
+    100406: werewolf_skinNEW_R_pinky_02_JNT
+    100408: werewolf_skinNEW_R_pinky_03_JNT
+    100410: werewolf_skinNEW_R_pinky_TIP
+    100412: werewolf_skinNEW_R_shoul_JNT
+    100414: werewolf_skinNEW_R_thigh_JNT
+    100416: werewolf_skinNEW_R_thumb_01_JNT
+    100418: werewolf_skinNEW_R_thumb_02_JNT
+    100420: werewolf_skinNEW_R_thumb_03_JNT
+    100422: werewolf_skinNEW_R_thumb_TIP
+    100424: werewolf_skinNEW_R_wrist_JNT
+    100426: werewolf_skinNEW_root_JNT
+    100428: werewolf_skinNEW_spine_01_JNT
+    100430: werewolf_skinNEW_spine_02_JNT
+    100432: werewolf_skinNEW_spine_03_JNT
+    100434: werewolf_skinNEW_spine_04_JNT
+    100436: werewolf_skinNEW_tail_01_JNT
+    100438: werewolf_skinNEW_tail_02_JNT
+    100440: werewolf_skinNEW_tail_03_JNT
+    100442: werewolf_skinNEW_tail_04_JNT
+    100444: werewolf_skinNEW_tail_TIP
+    100446: werewolf_skinNEW_werewolf_skinNEW_werewolf
+    100448: werewolf_skinNEW_world_node
+    400000: //RootNode
+    400002: werewolf_rig_garbage_GRP
+    400004: werewolf_rig_garbage_GRP1
+    400006: werewolf_rig_head_JNT
+    400008: werewolf_rig_head_TIP
+    400010: werewolf_rig_jaw_JNT
+    400012: werewolf_rig_jaw_TIP
+    400014: werewolf_rig_L_ankle_JNT
+    400016: werewolf_rig_L_clav_JNT
+    400018: werewolf_rig_L_ear_JNT
+    400020: werewolf_rig_L_ear_TIP
+    400022: werewolf_rig_L_elbw_JNT
+    400024: werewolf_rig_L_foot_JNT
+    400026: werewolf_rig_L_foot_TIP
+    400028: werewolf_rig_L_hip_JNT
+    400030: werewolf_rig_L_index_01_JNT
+    400032: werewolf_rig_L_index_02_JNT
+    400034: werewolf_rig_L_index_03_JNT
+    400036: werewolf_rig_L_index_TIP
+    400038: werewolf_rig_L_knee_JNT
+    400040: werewolf_rig_L_middle_01_JNT
+    400042: werewolf_rig_L_middle_02_JNT
+    400044: werewolf_rig_L_middle_03_JNT
+    400046: werewolf_rig_L_middle_TIP
+    400048: werewolf_rig_L_pinky_01_JNT
+    400050: werewolf_rig_L_pinky_02_JNT
+    400052: werewolf_rig_L_pinky_03_JNT
+    400054: werewolf_rig_L_pinky_TIP
+    400056: werewolf_rig_L_shoul_JNT
+    400058: werewolf_rig_L_thigh_JNT
+    400060: werewolf_rig_L_thumb_01_JNT
+    400062: werewolf_rig_L_thumb_02_JNT
+    400064: werewolf_rig_L_thumb_03_JNT
+    400066: werewolf_rig_L_thumb_TIP
+    400068: werewolf_rig_L_wrist_JNT
+    400070: werewolf_rig_neck_JNT
+    400072: werewolf_rig_R_ankle_JNT
+    400074: werewolf_rig_R_clav_JNT
+    400076: werewolf_rig_R_ear_JNT
+    400078: werewolf_rig_R_ear_TIP
+    400080: werewolf_rig_R_elbw_JNT
+    400082: werewolf_rig_R_foot_JNT
+    400084: werewolf_rig_R_foot_TIP
+    400086: werewolf_rig_R_hip_JNT
+    400088: werewolf_rig_R_index_01_JNT
+    400090: werewolf_rig_R_index_02_JNT
+    400092: werewolf_rig_R_index_03_JNT
+    400094: werewolf_rig_R_index_TIP
+    400096: werewolf_rig_R_knee_JNT
+    400098: werewolf_rig_R_middle_01_JNT
+    400100: werewolf_rig_R_middle_02_JNT
+    400102: werewolf_rig_R_middle_03_JNT
+    400104: werewolf_rig_R_middle_TIP
+    400106: werewolf_rig_R_pinky_01_JNT
+    400108: werewolf_rig_R_pinky_02_JNT
+    400110: werewolf_rig_R_pinky_03_JNT
+    400112: werewolf_rig_R_pinky_TIP
+    400114: werewolf_rig_R_shoul_JNT
+    400116: werewolf_rig_R_thigh_JNT
+    400118: werewolf_rig_R_thumb_01_JNT
+    400120: werewolf_rig_R_thumb_02_JNT
+    400122: werewolf_rig_R_thumb_03_JNT
+    400124: werewolf_rig_R_thumb_TIP
+    400126: werewolf_rig_R_wrist_JNT
+    400128: werewolf_rig_root_JNT
+    400130: werewolf_rig_spine_01_JNT
+    400132: werewolf_rig_spine_02_JNT
+    400134: werewolf_rig_spine_03_JNT
+    400136: werewolf_rig_spine_04_JNT
+    400138: werewolf_rig_tail_01_JNT
+    400140: werewolf_rig_tail_02_JNT
+    400142: werewolf_rig_tail_03_JNT
+    400144: werewolf_rig_tail_04_JNT
+    400146: werewolf_rig_tail_TIP
+    400148: werewolf_rig_werewolf
+    400150: werewolf_rig_world_node
+    400152: werewolf_idle_garbage_GRP
+    400154: werewolf_idle_garbage_GRP1
+    400156: werewolf_idle_head_JNT
+    400158: werewolf_idle_head_TIP
+    400160: werewolf_idle_jaw_JNT
+    400162: werewolf_idle_jaw_TIP
+    400164: werewolf_idle_L_ankle_JNT
+    400166: werewolf_idle_L_clav_JNT
+    400168: werewolf_idle_L_ear_JNT
+    400170: werewolf_idle_L_ear_TIP
+    400172: werewolf_idle_L_elbw_JNT
+    400174: werewolf_idle_L_foot_JNT
+    400176: werewolf_idle_L_foot_TIP
+    400178: werewolf_idle_L_hip_JNT
+    400180: werewolf_idle_L_index_01_JNT
+    400182: werewolf_idle_L_index_02_JNT
+    400184: werewolf_idle_L_index_03_JNT
+    400186: werewolf_idle_L_index_TIP
+    400188: werewolf_idle_L_knee_JNT
+    400190: werewolf_idle_L_middle_01_JNT
+    400192: werewolf_idle_L_middle_02_JNT
+    400194: werewolf_idle_L_middle_03_JNT
+    400196: werewolf_idle_L_middle_TIP
+    400198: werewolf_idle_L_pinky_01_JNT
+    400200: werewolf_idle_L_pinky_02_JNT
+    400202: werewolf_idle_L_pinky_03_JNT
+    400204: werewolf_idle_L_pinky_TIP
+    400206: werewolf_idle_L_shoul_JNT
+    400208: werewolf_idle_L_thigh_JNT
+    400210: werewolf_idle_L_thumb_01_JNT
+    400212: werewolf_idle_L_thumb_02_JNT
+    400214: werewolf_idle_L_thumb_03_JNT
+    400216: werewolf_idle_L_thumb_TIP
+    400218: werewolf_idle_L_wrist_JNT
+    400220: werewolf_idle_neck_JNT
+    400222: werewolf_idle_R_ankle_JNT
+    400224: werewolf_idle_R_clav_JNT
+    400226: werewolf_idle_R_ear_JNT
+    400228: werewolf_idle_R_ear_TIP
+    400230: werewolf_idle_R_elbw_JNT
+    400232: werewolf_idle_R_foot_JNT
+    400234: werewolf_idle_R_foot_TIP
+    400236: werewolf_idle_R_hip_JNT
+    400238: werewolf_idle_R_index_01_JNT
+    400240: werewolf_idle_R_index_02_JNT
+    400242: werewolf_idle_R_index_03_JNT
+    400244: werewolf_idle_R_index_TIP
+    400246: werewolf_idle_R_knee_JNT
+    400248: werewolf_idle_R_middle_01_JNT
+    400250: werewolf_idle_R_middle_02_JNT
+    400252: werewolf_idle_R_middle_03_JNT
+    400254: werewolf_idle_R_middle_TIP
+    400256: werewolf_idle_R_pinky_01_JNT
+    400258: werewolf_idle_R_pinky_02_JNT
+    400260: werewolf_idle_R_pinky_03_JNT
+    400262: werewolf_idle_R_pinky_TIP
+    400264: werewolf_idle_R_shoul_JNT
+    400266: werewolf_idle_R_thigh_JNT
+    400268: werewolf_idle_R_thumb_01_JNT
+    400270: werewolf_idle_R_thumb_02_JNT
+    400272: werewolf_idle_R_thumb_03_JNT
+    400274: werewolf_idle_R_thumb_TIP
+    400276: werewolf_idle_R_wrist_JNT
+    400278: werewolf_idle_root_JNT
+    400280: werewolf_idle_spine_01_JNT
+    400282: werewolf_idle_spine_02_JNT
+    400284: werewolf_idle_spine_03_JNT
+    400286: werewolf_idle_spine_04_JNT
+    400288: werewolf_idle_tail_01_JNT
+    400290: werewolf_idle_tail_02_JNT
+    400292: werewolf_idle_tail_03_JNT
+    400294: werewolf_idle_tail_04_JNT
+    400296: werewolf_idle_tail_TIP
+    400298: werewolf_idle_world_node
+    400300: werewolf_skinNEW_garbage_GRP
+    400302: werewolf_skinNEW_garbage_GRP1
+    400304: werewolf_skinNEW_head_JNT
+    400306: werewolf_skinNEW_head_TIP
+    400308: werewolf_skinNEW_jaw_JNT
+    400310: werewolf_skinNEW_jaw_TIP
+    400312: werewolf_skinNEW_L_ankle_JNT
+    400314: werewolf_skinNEW_L_clav_JNT
+    400316: werewolf_skinNEW_L_ear_JNT
+    400318: werewolf_skinNEW_L_ear_TIP
+    400320: werewolf_skinNEW_L_elbw_JNT
+    400322: werewolf_skinNEW_L_foot_JNT
+    400324: werewolf_skinNEW_L_foot_TIP
+    400326: werewolf_skinNEW_L_hip_JNT
+    400328: werewolf_skinNEW_L_index_01_JNT
+    400330: werewolf_skinNEW_L_index_02_JNT
+    400332: werewolf_skinNEW_L_index_03_JNT
+    400334: werewolf_skinNEW_L_index_TIP
+    400336: werewolf_skinNEW_L_knee_JNT
+    400338: werewolf_skinNEW_L_middle_01_JNT
+    400340: werewolf_skinNEW_L_middle_02_JNT
+    400342: werewolf_skinNEW_L_middle_03_JNT
+    400344: werewolf_skinNEW_L_middle_TIP
+    400346: werewolf_skinNEW_L_pinky_01_JNT
+    400348: werewolf_skinNEW_L_pinky_02_JNT
+    400350: werewolf_skinNEW_L_pinky_03_JNT
+    400352: werewolf_skinNEW_L_pinky_TIP
+    400354: werewolf_skinNEW_L_shoul_JNT
+    400356: werewolf_skinNEW_L_thigh_JNT
+    400358: werewolf_skinNEW_L_thumb_01_JNT
+    400360: werewolf_skinNEW_L_thumb_02_JNT
+    400362: werewolf_skinNEW_L_thumb_03_JNT
+    400364: werewolf_skinNEW_L_thumb_TIP
+    400366: werewolf_skinNEW_L_wrist_JNT
+    400368: werewolf_skinNEW_neck_JNT
+    400370: werewolf_skinNEW_R_ankle_JNT
+    400372: werewolf_skinNEW_R_clav_JNT
+    400374: werewolf_skinNEW_R_ear_JNT
+    400376: werewolf_skinNEW_R_ear_TIP
+    400378: werewolf_skinNEW_R_elbw_JNT
+    400380: werewolf_skinNEW_R_foot_JNT
+    400382: werewolf_skinNEW_R_foot_TIP
+    400384: werewolf_skinNEW_R_hip_JNT
+    400386: werewolf_skinNEW_R_index_01_JNT
+    400388: werewolf_skinNEW_R_index_02_JNT
+    400390: werewolf_skinNEW_R_index_03_JNT
+    400392: werewolf_skinNEW_R_index_TIP
+    400394: werewolf_skinNEW_R_knee_JNT
+    400396: werewolf_skinNEW_R_middle_01_JNT
+    400398: werewolf_skinNEW_R_middle_02_JNT
+    400400: werewolf_skinNEW_R_middle_03_JNT
+    400402: werewolf_skinNEW_R_middle_TIP
+    400404: werewolf_skinNEW_R_pinky_01_JNT
+    400406: werewolf_skinNEW_R_pinky_02_JNT
+    400408: werewolf_skinNEW_R_pinky_03_JNT
+    400410: werewolf_skinNEW_R_pinky_TIP
+    400412: werewolf_skinNEW_R_shoul_JNT
+    400414: werewolf_skinNEW_R_thigh_JNT
+    400416: werewolf_skinNEW_R_thumb_01_JNT
+    400418: werewolf_skinNEW_R_thumb_02_JNT
+    400420: werewolf_skinNEW_R_thumb_03_JNT
+    400422: werewolf_skinNEW_R_thumb_TIP
+    400424: werewolf_skinNEW_R_wrist_JNT
+    400426: werewolf_skinNEW_root_JNT
+    400428: werewolf_skinNEW_spine_01_JNT
+    400430: werewolf_skinNEW_spine_02_JNT
+    400432: werewolf_skinNEW_spine_03_JNT
+    400434: werewolf_skinNEW_spine_04_JNT
+    400436: werewolf_skinNEW_tail_01_JNT
+    400438: werewolf_skinNEW_tail_02_JNT
+    400440: werewolf_skinNEW_tail_03_JNT
+    400442: werewolf_skinNEW_tail_04_JNT
+    400444: werewolf_skinNEW_tail_TIP
+    400446: werewolf_skinNEW_werewolf_skinNEW_werewolf
+    400448: werewolf_skinNEW_world_node
+    4300000: werewolf_rig_werewolf
+    4300002: werewolf_skinNEW_werewolf_skinNEW_werewolf
+    7400000: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: werewolf_rig_werewolf
+    13700002: werewolf_skinNEW_werewolf_skinNEW_werewolf
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 73
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: werewolf_rig_werewolf
+        weight: 1
+      - path: werewolf_rig_world_node
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT/werewolf_rig_L_thigh_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT/werewolf_rig_L_thigh_JNT/werewolf_rig_L_knee_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT/werewolf_rig_L_thigh_JNT/werewolf_rig_L_knee_JNT/werewolf_rig_L_ankle_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT/werewolf_rig_L_thigh_JNT/werewolf_rig_L_knee_JNT/werewolf_rig_L_ankle_JNT/werewolf_rig_L_foot_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_L_hip_JNT/werewolf_rig_L_thigh_JNT/werewolf_rig_L_knee_JNT/werewolf_rig_L_ankle_JNT/werewolf_rig_L_foot_JNT/werewolf_rig_L_foot_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT/werewolf_rig_R_thigh_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT/werewolf_rig_R_thigh_JNT/werewolf_rig_R_knee_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT/werewolf_rig_R_thigh_JNT/werewolf_rig_R_knee_JNT/werewolf_rig_R_ankle_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT/werewolf_rig_R_thigh_JNT/werewolf_rig_R_knee_JNT/werewolf_rig_R_ankle_JNT/werewolf_rig_R_foot_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_R_hip_JNT/werewolf_rig_R_thigh_JNT/werewolf_rig_R_knee_JNT/werewolf_rig_R_ankle_JNT/werewolf_rig_R_foot_JNT/werewolf_rig_R_foot_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_index_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_index_01_JNT/werewolf_rig_L_index_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_index_01_JNT/werewolf_rig_L_index_02_JNT/werewolf_rig_L_index_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_index_01_JNT/werewolf_rig_L_index_02_JNT/werewolf_rig_L_index_03_JNT/werewolf_rig_L_index_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_middle_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_middle_01_JNT/werewolf_rig_L_middle_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_middle_01_JNT/werewolf_rig_L_middle_02_JNT/werewolf_rig_L_middle_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_middle_01_JNT/werewolf_rig_L_middle_02_JNT/werewolf_rig_L_middle_03_JNT/werewolf_rig_L_middle_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_pinky_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_pinky_01_JNT/werewolf_rig_L_pinky_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_pinky_01_JNT/werewolf_rig_L_pinky_02_JNT/werewolf_rig_L_pinky_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_pinky_01_JNT/werewolf_rig_L_pinky_02_JNT/werewolf_rig_L_pinky_03_JNT/werewolf_rig_L_pinky_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_thumb_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_thumb_01_JNT/werewolf_rig_L_thumb_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_thumb_01_JNT/werewolf_rig_L_thumb_02_JNT/werewolf_rig_L_thumb_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_L_clav_JNT/werewolf_rig_L_shoul_JNT/werewolf_rig_L_elbw_JNT/werewolf_rig_L_wrist_JNT/werewolf_rig_L_thumb_01_JNT/werewolf_rig_L_thumb_02_JNT/werewolf_rig_L_thumb_03_JNT/werewolf_rig_L_thumb_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_head_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_jaw_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_jaw_JNT/werewolf_rig_jaw_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_L_ear_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_L_ear_JNT/werewolf_rig_L_ear_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_R_ear_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_neck_JNT/werewolf_rig_head_JNT/werewolf_rig_R_ear_JNT/werewolf_rig_R_ear_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP/werewolf_rig_R_pinky_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP/werewolf_rig_R_pinky_01_JNT/werewolf_rig_R_pinky_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP/werewolf_rig_R_pinky_01_JNT/werewolf_rig_R_pinky_02_JNT/werewolf_rig_R_pinky_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP/werewolf_rig_R_pinky_01_JNT/werewolf_rig_R_pinky_02_JNT/werewolf_rig_R_pinky_03_JNT/werewolf_rig_R_pinky_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP1
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP1/werewolf_rig_R_middle_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP1/werewolf_rig_R_middle_01_JNT/werewolf_rig_R_middle_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP1/werewolf_rig_R_middle_01_JNT/werewolf_rig_R_middle_02_JNT/werewolf_rig_R_middle_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_garbage_GRP1/werewolf_rig_R_middle_01_JNT/werewolf_rig_R_middle_02_JNT/werewolf_rig_R_middle_03_JNT/werewolf_rig_R_middle_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_index_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_index_01_JNT/werewolf_rig_R_index_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_index_01_JNT/werewolf_rig_R_index_02_JNT/werewolf_rig_R_index_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_index_01_JNT/werewolf_rig_R_index_02_JNT/werewolf_rig_R_index_03_JNT/werewolf_rig_R_index_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_thumb_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_thumb_01_JNT/werewolf_rig_R_thumb_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_thumb_01_JNT/werewolf_rig_R_thumb_02_JNT/werewolf_rig_R_thumb_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_spine_01_JNT/werewolf_rig_spine_02_JNT/werewolf_rig_spine_03_JNT/werewolf_rig_spine_04_JNT/werewolf_rig_R_clav_JNT/werewolf_rig_R_shoul_JNT/werewolf_rig_R_elbw_JNT/werewolf_rig_R_wrist_JNT/werewolf_rig_R_thumb_01_JNT/werewolf_rig_R_thumb_02_JNT/werewolf_rig_R_thumb_03_JNT/werewolf_rig_R_thumb_TIP
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_tail_01_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_tail_01_JNT/werewolf_rig_tail_02_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_tail_01_JNT/werewolf_rig_tail_02_JNT/werewolf_rig_tail_03_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_tail_01_JNT/werewolf_rig_tail_02_JNT/werewolf_rig_tail_03_JNT/werewolf_rig_tail_04_JNT
+        weight: 1
+      - path: werewolf_rig_world_node/werewolf_rig_root_JNT/werewolf_rig_tail_01_JNT/werewolf_rig_tail_02_JNT/werewolf_rig_tail_03_JNT/werewolf_rig_tail_04_JNT/werewolf_rig_tail_TIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

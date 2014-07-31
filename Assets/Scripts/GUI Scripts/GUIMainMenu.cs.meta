@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b306e72ae71466c469f509c68447e0e5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - customSkin: {fileID: 11400000, guid: 005498b499fbae84980555d9f1c47fbe, type: 2}
+  - backgroundBox: {instanceID: 0}
+  - SinglePlayerButton: {instanceID: 0}
+  - MultiplayerButton: {instanceID: 0}
+  - OptionsButton: {instanceID: 0}
+  - HelpButton: {instanceID: 0}
+  - ExitButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

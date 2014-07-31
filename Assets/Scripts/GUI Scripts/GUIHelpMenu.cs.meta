@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 65fd31a71f9522c4e9211f1febb9b639
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - customSkin: {fileID: 11400000, guid: 005498b499fbae84980555d9f1c47fbe, type: 2}
+  - tutorial: {instanceID: 0}
+  - unitPlacement: {instanceID: 0}
+  - resolution: {instanceID: 0}
+  - attacking: {instanceID: 0}
+  - unitTypes: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

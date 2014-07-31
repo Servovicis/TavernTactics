@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 242e749854443c842baf7ca3d80f5bcc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: fox_archer_skin_arrow_CTRL
+    100002: fox_archer_skin_arrow_JNT
+    100004: fox_archer_skin_arrow_locate_CTRL
+    100006: fox_archer_skin_arrow_mesh
+    100008: fox_archer_skin_arrow_TIP
+    100010: fox_archer_skin_bow_B_01_JNT
+    100012: fox_archer_skin_bow_B_02_JNT
+    100014: fox_archer_skin_bow_CTRL
+    100016: fox_archer_skin_bow_locate_CTRL
+    100018: fox_archer_skin_bow_root_JNT
+    100020: fox_archer_skin_bow_T_01_JNT
+    100022: fox_archer_skin_bow_T_02_JNT
+    100024: fox_archer_skin_bow_T_03_JNT
+    100026: fox_archer_skin_FoxArcher_UVunwrap_Object002
+    100028: fox_archer_skin_garbage_group
+    100030: fox_archer_skin_garbage_group 1
+    100032: fox_archer_skin_group2
+    100034: fox_archer_skin_head_JNT
+    100036: fox_archer_skin_head_TIP
+    100038: fox_archer_skin_hips_CTRL
+    100040: fox_archer_skin_L_ankle_JNT
+    100042: fox_archer_skin_L_ball_JNT
+    100044: fox_archer_skin_L_clav_JNT
+    100046: fox_archer_skin_L_ear_JNT
+    100048: fox_archer_skin_L_ear_TIP
+    100050: fox_archer_skin_L_ear_TIP 1
+    100052: fox_archer_skin_L_elbow_CTRL
+    100054: fox_archer_skin_L_elbw_JNT
+    100056: fox_archer_skin_L_fingers_01_JNT
+    100058: fox_archer_skin_L_fingers_02_JNT
+    100060: fox_archer_skin_L_fingers_03_JNT
+    100062: fox_archer_skin_L_fingers_TIP
+    100064: fox_archer_skin_L_hip_JNT
+    100066: fox_archer_skin_L_index_01_JNT
+    100068: fox_archer_skin_L_index_02_JNT
+    100070: fox_archer_skin_L_index_03_JNT
+    100072: fox_archer_skin_L_index_TIP
+    100074: fox_archer_skin_L_knee_JNT
+    100076: fox_archer_skin_L_should_CTRL
+    100078: fox_archer_skin_L_should_JNT
+    100080: fox_archer_skin_L_thigh_JNT
+    100082: fox_archer_skin_L_thumb_01_JNT
+    100084: fox_archer_skin_L_thumb_02_JNT
+    100086: fox_archer_skin_L_thumb_03_JNT
+    100088: fox_archer_skin_L_thumb_TIP
+    100090: fox_archer_skin_L_toe_JNT
+    100092: fox_archer_skin_L_wrist_CTRL
+    100094: fox_archer_skin_L_wrist_JNT
+    100096: fox_archer_skin_neck_JNT
+    100098: fox_archer_skin_Object003
+    100100: fox_archer_skin_R_ankle_JNT
+    100102: fox_archer_skin_R_ball_JNT
+    100104: fox_archer_skin_R_clav_JNT
+    100106: fox_archer_skin_R_ear_JNT
+    100108: fox_archer_skin_R_elbw_JNT
+    100110: fox_archer_skin_R_fingers_01_JNT
+    100112: fox_archer_skin_R_fingers_02_JNT
+    100114: fox_archer_skin_R_fingers_03_JNT
+    100116: fox_archer_skin_R_fingers_TIP
+    100118: fox_archer_skin_R_hip_JNT
+    100120: fox_archer_skin_R_index_01_JNT
+    100122: fox_archer_skin_R_index_02_JNT
+    100124: fox_archer_skin_R_index_03_JNT
+    100126: fox_archer_skin_R_index_TIP
+    100128: fox_archer_skin_R_knee_JNT
+    100130: fox_archer_skin_R_should_JNT
+    100132: fox_archer_skin_R_thigh_JNT
+    100134: fox_archer_skin_R_thumb_01_JNT
+    100136: fox_archer_skin_R_thumb_02_JNT
+    100138: fox_archer_skin_R_thumb_03_JNT
+    100140: fox_archer_skin_R_thumb_TIP
+    100142: fox_archer_skin_R_toe_JNT
+    100144: fox_archer_skin_R_wrist_JNT
+    100146: fox_archer_skin_root_CTRL
+    100148: fox_archer_skin_root_JNT
+    100150: fox_archer_skin_spine_01_CTRL
+    100152: fox_archer_skin_spine_01_JNT
+    100154: fox_archer_skin_spine_02_CTRL
+    100156: fox_archer_skin_spine_02_JNT
+    100158: fox_archer_skin_spine_03_CTRL
+    100160: fox_archer_skin_spine_03_JNT
+    100162: fox_archer_skin_spine_04_CTRL
+    100164: fox_archer_skin_spine_04_JNT
+    100166: fox_archer_skin_string_JNT
+    100168: fox_archer_skin_tail_01_JNT
+    100170: fox_archer_skin_tail_02_JNT
+    100172: fox_archer_skin_tail_03_JNT
+    100174: fox_archer_skin_tail_04_JNT
+    100176: fox_archer_skin_tail_05_JNT
+    100178: fox_archer_skin_tail_TIP
+    100180: fox_archer_skin_world_CTRL
+    100182: fox_archer_skin_world_node
+    100184: //RootNode
+    400000: fox_archer_skin_arrow_CTRL
+    400002: fox_archer_skin_arrow_JNT
+    400004: fox_archer_skin_arrow_locate_CTRL
+    400006: fox_archer_skin_arrow_mesh
+    400008: fox_archer_skin_arrow_TIP
+    400010: fox_archer_skin_bow_B_01_JNT
+    400012: fox_archer_skin_bow_B_02_JNT
+    400014: fox_archer_skin_bow_CTRL
+    400016: fox_archer_skin_bow_locate_CTRL
+    400018: fox_archer_skin_bow_root_JNT
+    400020: fox_archer_skin_bow_T_01_JNT
+    400022: fox_archer_skin_bow_T_02_JNT
+    400024: fox_archer_skin_bow_T_03_JNT
+    400026: fox_archer_skin_FoxArcher_UVunwrap_Object002
+    400028: fox_archer_skin_garbage_group
+    400030: fox_archer_skin_garbage_group 1
+    400032: fox_archer_skin_group2
+    400034: fox_archer_skin_head_JNT
+    400036: fox_archer_skin_head_TIP
+    400038: fox_archer_skin_hips_CTRL
+    400040: fox_archer_skin_L_ankle_JNT
+    400042: fox_archer_skin_L_ball_JNT
+    400044: fox_archer_skin_L_clav_JNT
+    400046: fox_archer_skin_L_ear_JNT
+    400048: fox_archer_skin_L_ear_TIP
+    400050: fox_archer_skin_L_ear_TIP 1
+    400052: fox_archer_skin_L_elbow_CTRL
+    400054: fox_archer_skin_L_elbw_JNT
+    400056: fox_archer_skin_L_fingers_01_JNT
+    400058: fox_archer_skin_L_fingers_02_JNT
+    400060: fox_archer_skin_L_fingers_03_JNT
+    400062: fox_archer_skin_L_fingers_TIP
+    400064: fox_archer_skin_L_hip_JNT
+    400066: fox_archer_skin_L_index_01_JNT
+    400068: fox_archer_skin_L_index_02_JNT
+    400070: fox_archer_skin_L_index_03_JNT
+    400072: fox_archer_skin_L_index_TIP
+    400074: fox_archer_skin_L_knee_JNT
+    400076: fox_archer_skin_L_should_CTRL
+    400078: fox_archer_skin_L_should_JNT
+    400080: fox_archer_skin_L_thigh_JNT
+    400082: fox_archer_skin_L_thumb_01_JNT
+    400084: fox_archer_skin_L_thumb_02_JNT
+    400086: fox_archer_skin_L_thumb_03_JNT
+    400088: fox_archer_skin_L_thumb_TIP
+    400090: fox_archer_skin_L_toe_JNT
+    400092: fox_archer_skin_L_wrist_CTRL
+    400094: fox_archer_skin_L_wrist_JNT
+    400096: fox_archer_skin_neck_JNT
+    400098: fox_archer_skin_Object003
+    400100: fox_archer_skin_R_ankle_JNT
+    400102: fox_archer_skin_R_ball_JNT
+    400104: fox_archer_skin_R_clav_JNT
+    400106: fox_archer_skin_R_ear_JNT
+    400108: fox_archer_skin_R_elbw_JNT
+    400110: fox_archer_skin_R_fingers_01_JNT
+    400112: fox_archer_skin_R_fingers_02_JNT
+    400114: fox_archer_skin_R_fingers_03_JNT
+    400116: fox_archer_skin_R_fingers_TIP
+    400118: fox_archer_skin_R_hip_JNT
+    400120: fox_archer_skin_R_index_01_JNT
+    400122: fox_archer_skin_R_index_02_JNT
+    400124: fox_archer_skin_R_index_03_JNT
+    400126: fox_archer_skin_R_index_TIP
+    400128: fox_archer_skin_R_knee_JNT
+    400130: fox_archer_skin_R_should_JNT
+    400132: fox_archer_skin_R_thigh_JNT
+    400134: fox_archer_skin_R_thumb_01_JNT
+    400136: fox_archer_skin_R_thumb_02_JNT
+    400138: fox_archer_skin_R_thumb_03_JNT
+    400140: fox_archer_skin_R_thumb_TIP
+    400142: fox_archer_skin_R_toe_JNT
+    400144: fox_archer_skin_R_wrist_JNT
+    400146: fox_archer_skin_root_CTRL
+    400148: fox_archer_skin_root_JNT
+    400150: fox_archer_skin_spine_01_CTRL
+    400152: fox_archer_skin_spine_01_JNT
+    400154: fox_archer_skin_spine_02_CTRL
+    400156: fox_archer_skin_spine_02_JNT
+    400158: fox_archer_skin_spine_03_CTRL
+    400160: fox_archer_skin_spine_03_JNT
+    400162: fox_archer_skin_spine_04_CTRL
+    400164: fox_archer_skin_spine_04_JNT
+    400166: fox_archer_skin_string_JNT
+    400168: fox_archer_skin_tail_01_JNT
+    400170: fox_archer_skin_tail_02_JNT
+    400172: fox_archer_skin_tail_03_JNT
+    400174: fox_archer_skin_tail_04_JNT
+    400176: fox_archer_skin_tail_05_JNT
+    400178: fox_archer_skin_tail_TIP
+    400180: fox_archer_skin_world_CTRL
+    400182: fox_archer_skin_world_node
+    400184: //RootNode
+    4300000: fox_archer_skin_FoxArcher_UVunwrap_Object002
+    4300002: fox_archer_skin_Object003
+    7400000: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: fox_archer_skin_FoxArcher_UVunwrap_Object002
+    13700002: fox_archer_skin_Object003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: fox_archer_skin_arrow_locate_CTRL
+        weight: 1
+      - path: fox_archer_skin_arrow_locate_CTRL/fox_archer_skin_garbage_group
+        weight: 1
+      - path: fox_archer_skin_arrow_locate_CTRL/fox_archer_skin_garbage_group/fox_archer_skin_arrow_CTRL
+        weight: 1
+      - path: fox_archer_skin_arrow_locate_CTRL/fox_archer_skin_garbage_group/fox_archer_skin_arrow_CTRL/fox_archer_skin_arrow_JNT
+        weight: 1
+      - path: fox_archer_skin_arrow_locate_CTRL/fox_archer_skin_garbage_group/fox_archer_skin_arrow_CTRL/fox_archer_skin_arrow_JNT/fox_archer_skin_arrow_TIP
+        weight: 1
+      - path: fox_archer_skin_arrow_mesh
+        weight: 1
+      - path: fox_archer_skin_FoxArcher_UVunwrap_Object002
+        weight: 1
+      - path: fox_archer_skin_Object003
+        weight: 1
+      - path: fox_archer_skin_world_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_bow_B_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_bow_B_01_JNT/fox_archer_skin_bow_B_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_bow_T_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_bow_T_01_JNT/fox_archer_skin_bow_T_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_bow_T_01_JNT/fox_archer_skin_bow_T_02_JNT/fox_archer_skin_bow_T_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_CTRL/fox_archer_skin_root_CTRL/fox_archer_skin_spine_01_CTRL/fox_archer_skin_spine_02_CTRL/fox_archer_skin_spine_03_CTRL/fox_archer_skin_spine_04_CTRL/fox_archer_skin_L_should_CTRL/fox_archer_skin_L_elbow_CTRL/fox_archer_skin_L_wrist_CTRL/fox_archer_skin_bow_locate_CTRL/fox_archer_skin_bow_CTRL/fox_archer_skin_bow_root_JNT/fox_archer_skin_string_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_hips_CTRL
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT/fox_archer_skin_L_thigh_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT/fox_archer_skin_L_thigh_JNT/fox_archer_skin_L_knee_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT/fox_archer_skin_L_thigh_JNT/fox_archer_skin_L_knee_JNT/fox_archer_skin_L_ankle_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT/fox_archer_skin_L_thigh_JNT/fox_archer_skin_L_knee_JNT/fox_archer_skin_L_ankle_JNT/fox_archer_skin_L_ball_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_L_hip_JNT/fox_archer_skin_L_thigh_JNT/fox_archer_skin_L_knee_JNT/fox_archer_skin_L_ankle_JNT/fox_archer_skin_L_ball_JNT/fox_archer_skin_L_toe_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT/fox_archer_skin_R_thigh_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT/fox_archer_skin_R_thigh_JNT/fox_archer_skin_R_knee_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT/fox_archer_skin_R_thigh_JNT/fox_archer_skin_R_knee_JNT/fox_archer_skin_R_ankle_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT/fox_archer_skin_R_thigh_JNT/fox_archer_skin_R_knee_JNT/fox_archer_skin_R_ankle_JNT/fox_archer_skin_R_ball_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_R_hip_JNT/fox_archer_skin_R_thigh_JNT/fox_archer_skin_R_knee_JNT/fox_archer_skin_R_ankle_JNT/fox_archer_skin_R_ball_JNT/fox_archer_skin_R_toe_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_fingers_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_fingers_01_JNT/fox_archer_skin_R_fingers_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_fingers_01_JNT/fox_archer_skin_R_fingers_02_JNT/fox_archer_skin_R_fingers_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_fingers_01_JNT/fox_archer_skin_R_fingers_02_JNT/fox_archer_skin_R_fingers_03_JNT/fox_archer_skin_R_fingers_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_index_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_index_01_JNT/fox_archer_skin_R_index_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_index_01_JNT/fox_archer_skin_R_index_02_JNT/fox_archer_skin_R_index_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_index_01_JNT/fox_archer_skin_R_index_02_JNT/fox_archer_skin_R_index_03_JNT/fox_archer_skin_R_index_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_thumb_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_thumb_01_JNT/fox_archer_skin_R_thumb_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_thumb_01_JNT/fox_archer_skin_R_thumb_02_JNT/fox_archer_skin_R_thumb_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_group2/fox_archer_skin_R_clav_JNT/fox_archer_skin_R_should_JNT/fox_archer_skin_R_elbw_JNT/fox_archer_skin_R_wrist_JNT/fox_archer_skin_R_thumb_01_JNT/fox_archer_skin_R_thumb_02_JNT/fox_archer_skin_R_thumb_03_JNT/fox_archer_skin_R_thumb_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_fingers_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_fingers_01_JNT/fox_archer_skin_L_fingers_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_fingers_01_JNT/fox_archer_skin_L_fingers_02_JNT/fox_archer_skin_L_fingers_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_fingers_01_JNT/fox_archer_skin_L_fingers_02_JNT/fox_archer_skin_L_fingers_03_JNT/fox_archer_skin_L_fingers_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_index_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_index_01_JNT/fox_archer_skin_L_index_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_index_01_JNT/fox_archer_skin_L_index_02_JNT/fox_archer_skin_L_index_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_index_01_JNT/fox_archer_skin_L_index_02_JNT/fox_archer_skin_L_index_03_JNT/fox_archer_skin_L_index_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_thumb_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_thumb_01_JNT/fox_archer_skin_L_thumb_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_thumb_01_JNT/fox_archer_skin_L_thumb_02_JNT/fox_archer_skin_L_thumb_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_L_clav_JNT/fox_archer_skin_L_should_JNT/fox_archer_skin_L_elbw_JNT/fox_archer_skin_L_wrist_JNT/fox_archer_skin_L_thumb_01_JNT/fox_archer_skin_L_thumb_02_JNT/fox_archer_skin_L_thumb_03_JNT/fox_archer_skin_L_thumb_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_garbage_group
+          1
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_garbage_group
+          1/fox_archer_skin_R_ear_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_garbage_group
+          1/fox_archer_skin_R_ear_JNT/fox_archer_skin_L_ear_TIP 1
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_head_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_L_ear_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_spine_01_JNT/fox_archer_skin_spine_02_JNT/fox_archer_skin_spine_03_JNT/fox_archer_skin_spine_04_JNT/fox_archer_skin_neck_JNT/fox_archer_skin_head_JNT/fox_archer_skin_L_ear_JNT/fox_archer_skin_L_ear_TIP
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT/fox_archer_skin_tail_02_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT/fox_archer_skin_tail_02_JNT/fox_archer_skin_tail_03_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT/fox_archer_skin_tail_02_JNT/fox_archer_skin_tail_03_JNT/fox_archer_skin_tail_04_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT/fox_archer_skin_tail_02_JNT/fox_archer_skin_tail_03_JNT/fox_archer_skin_tail_04_JNT/fox_archer_skin_tail_05_JNT
+        weight: 1
+      - path: fox_archer_skin_world_node/fox_archer_skin_root_JNT/fox_archer_skin_tail_01_JNT/fox_archer_skin_tail_02_JNT/fox_archer_skin_tail_03_JNT/fox_archer_skin_tail_04_JNT/fox_archer_skin_tail_05_JNT/fox_archer_skin_tail_TIP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
