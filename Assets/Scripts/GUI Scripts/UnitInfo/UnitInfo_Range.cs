@@ -18,6 +18,5 @@ public class UnitInfo_Range : MonoBehaviour {
 		Sprite = this.gameObject.GetComponentInChildren <UISprite> ();
 		Instance = this;
 		Label.text = "";
-		Sprite.enabled = false;
  }
 }

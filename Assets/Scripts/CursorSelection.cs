@@ -90,9 +90,9 @@ public class CursorSelection : MonoBehaviour {
 						}
 						else {
 							foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
-								thisButton.UnloadButtons();
+								thisButton.onClick = null;
+								thisButton.myLabel.text = "";
 								NGUITools.SetActive(thisButton.gameObject, false);
-								UnitPortraitController.Instance.unloadUnit ();
 							}
 						}
 					}
@@ -118,9 +118,9 @@ public class CursorSelection : MonoBehaviour {
 						}
 						else {
 							foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
-								thisButton.UnloadButtons();
+								thisButton.onClick = null;
+								thisButton.myLabel.text = "";
 								NGUITools.SetActive(thisButton.gameObject, false);
-								UnitPortraitController.Instance.unloadUnit();
 							}
 						}
 						UnitChoice.Instance.SpawnButton();

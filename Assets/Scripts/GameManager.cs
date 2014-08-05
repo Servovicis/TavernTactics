@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq; 
@@ -108,7 +108,7 @@ public class GameManager : MonoBehaviour
 		menuState = MenuStates.NullState;
 		_EnterInsertPhase();
 		//Put the Layer Switcher button into the main GUI
-		//guiFunction += LayerSwitcher.Instance.GUIFunction;
+		guiFunction += LayerSwitcher.Instance.GUIFunction;
 
 
 	}

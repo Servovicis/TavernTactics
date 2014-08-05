@@ -3,7 +3,6 @@ using System.Collections;
 using System.IO;
 using System.Collections.Generic;
 
-#pragma warning disable 0649 // variable field is never assigned to, and will always have its default value null.
 public class GameInit : MonoBehaviour {
 
 	public string[] GenreScripts;

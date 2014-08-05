@@ -3,7 +3,7 @@
 [RequireComponent(typeof(HUDText))]
 public class Test : MonoBehaviour{
 	HUDText ht;
-	string sayWhat = "";
+	string sayWhat;
 	void Update()
 	{
 		Debug.Log ("Is This Running?!?!?!? v3");
