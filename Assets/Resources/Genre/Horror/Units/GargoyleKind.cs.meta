@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: fda908a2c1274e64896b662a0a5b8ae5
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - AttackedParticles: {fileID: 100000, guid: 11e0cdc011dcbd14d8428357d60ba9cc, type: 2}
+  - SpawnedAttackedParticles: {instanceID: 0}
+  - UnitOwner: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
