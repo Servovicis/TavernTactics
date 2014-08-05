@@ -21,6 +21,7 @@ public class MobileUnit : Unit {
 		GameManager.Instance.OnEndPhaseTransition += SummonSickness;
 		base.Awake ();
 		OnActionSelect += InsertGUI;
+		OnActionSelect += GUIButtons;
 		OnActionDeselectExtra = RemoveGUI;
 		OnAttack = UnitResolveAttack;
 		TextAsset csv = Resources.Load("CharacterBalance") as TextAsset;
@@ -47,30 +48,39 @@ public class MobileUnit : Unit {
 	public override void InsertGUI(){
 		base.InsertGUI ();
 		if (!HasInteracted){
-			int thisButtonNum = 0;
-			foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
-				thisButton.onClick = MyButtons [thisButtonNum];
-				thisButtonNum++;
-				NGUITools.SetActive(thisButton.gameObject, true);
-			}
+			GUIButtons();
 		}
 		else {
-			foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
-				thisButton.onClick = null;
-				thisButton.myLabel.text = "";
-				NGUITools.SetActive(thisButton.gameObject, false);
-			}
+			removeButtons ();
 		}
-		GameManager.Instance.LeftPaneButtons [0].myLabel.text = "Attack";
-		GameManager.Instance.LeftPaneButtons [1].myLabel.text = "Defend";
-		GameManager.Instance.LeftPaneButtons [2].myLabel.text = Special1Name;
-		GameManager.Instance.LeftPaneButtons [3].myLabel.text = Special2Name;
 	}
-	
+
+	public override void GUIButtons () {
+		int thisButtonNum = 0;
+		foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
+			thisButton.onClick = MyButtons [thisButtonNum];
+			thisButtonNum++;
+			NGUITools.SetActive(thisButton.gameObject, true);
+			GameManager.Instance.LeftPaneButtons [0].myLabel.text = "Attack";
+			GameManager.Instance.LeftPaneButtons [1].myLabel.text = "Defend";
+			GameManager.Instance.LeftPaneButtons [2].myLabel.text = Special1Name;
+			GameManager.Instance.LeftPaneButtons [3].myLabel.text = Special2Name;
+		}
+	}
+
+	public override void removeButtons () {
+		foreach (GUILeftPaneButton thisButton in GameManager.Instance.LeftPaneButtons) {
+			thisButton.UnloadButtons();
+			NGUITools.SetActive(thisButton.gameObject, false);
+		}
+	}
+
 	public virtual void RemoveGUI(){
 		GameManager.Instance.buttonsGUIFunction = null;
 		OnActionSelect += InsertGUI;
+		OnActionSelect += GUIButtons;
 		RemoveAbilityRange = RemoveAttackRange;
+
 	}
 
 	public override bool HasInteracted {
@@ -78,6 +88,7 @@ public class MobileUnit : Unit {
 		set {
 			_HasInteracted = value;
 			InsertGUI ();
+			GUIButtons ();
 		}
 	}
 

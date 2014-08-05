@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+#pragma warning disable 0414 // variable is assigned but its value is never used.
 public class HealthManager : MonoBehaviour {
 
 	public GameObject HealthBarClient;

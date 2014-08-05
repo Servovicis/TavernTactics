@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+#pragma warning disable 0414 // variable is assigned but its value is never used.
 public abstract class RangedKind : MobileUnit {
 	int initHealth = 10;
 	int initDefenseChance = 1;
@@ -98,6 +99,10 @@ public abstract class RangedKind : MobileUnit {
 		OnAttack = UnitResolveAttack;
 		//OnAttack = AOEAttack;
 		base.Awake ();
+	}
+
+	protected override int declareMyColumn () {
+		return 3;
 	}
 	
 	public override void UnitTypeSet (){

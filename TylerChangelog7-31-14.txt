@@ -1,0 +1,36 @@
+Scripts
+	GUILeftPaneButtons.cs
+		-OnHover(bool isOver) added
+		-UnloadButtons () added, unloads buttons
+		-Hover & unHover delegates added
+	Unit.cs
+		-GUIButtons() added at line 641
+		-removeButtons() added at line 644
+		-loadUnitStatInfo () added at line 648
+		-InsertGUI() stuff gutted and put into loadUnitStatInfo() - now just calls that function.
+		-unloadUnitStatInfo () added at line 651
+		-preloadStats() added at line 664
+		-OnActionDeselect () stuff removed at line 330 and put into unload function, now just calls
+			unloadUnitStatInfo ()
+		-declareMyColumn () added at line 676
+	MobileUnit.cs
+		-InsertGUI split into functions
+		-GUIButtons() overridden, now includes all GUI inserts.
+		-removeButtons() overridden, now includes all GUI removal and calls UnloadButtons()
+	UnitChoice.cs
+		-line 94 & 95 now change the hover function of the buttons to the stat info load and unload funcs
+	CursorSelection.cs
+		-UnloadButtons now called at line 93
+		-UnloadButtons now called at line 121
+	KingKind.cs
+		-OnActionSelect += GUIButtons; added at line 100 in Awake()
+		-declareMyColumn overridden at line 107
+	HeavyKind.cs
+		-declareMyColumn overridden at line 107
+	MeleeKind.cs
+		-declareMyColumn overridden at line 98
+	RangedKind.cs
+		-declareMyColumn overridden at line 104
+	SorcererKind.cs
+		-declareMyColumn overridden at line 100
+	

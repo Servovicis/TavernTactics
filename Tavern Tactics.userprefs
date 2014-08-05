@@ -1,9 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HealthBarScripts\CameraFacingHealthbar.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUI Scripts\UnitChoice.cs">
     <Files>
-      <File FileName="Assets\Scripts\HealthBarScripts\CameraFacingHealthbar.cs" Line="48" Column="169" />
-      <File FileName="Assets\Scripts\Unit and Types\MobileUnit.cs" Line="21" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\Unit.cs" Line="101" Column="27" />
+      <File FileName="Assets\Scripts\Unit and Types\KingKind.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\HeavyKind.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\MeleeKind.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\RangedKind.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\SorcererKind.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Unit and Types\MobileUnit.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI Scripts\UnitChoice.cs" Line="26" Column="45" />
+      <File FileName="Assets\Scripts\GUI Scripts\UnitInfo\UnitInfo_Range.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI Scripts\UnitInfo\UnitInfo_Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UnitPortraitController.cs" Line="19" Column="18" />
+      <File FileName="Assets\Scripts\GenreScriptInitializer.cs" Line="14" Column="105" />
+      <File FileName="Assets\NGUI\Scripts\Internal\NGUITools.cs" Line="403" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

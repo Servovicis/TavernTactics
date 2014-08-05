@@ -12,7 +12,7 @@ public class SetPlayerGenre : MonoBehaviour {
 		PlayerScript.genreScript = ObjectGenreScript;
 		ObjectGenreScript.isParented = true;
 		ObjectGenreScript.ParentPlayer = PlayerScript.player;
-		}
+	}
 
 	// Use this for initialization
 	void Start () {
