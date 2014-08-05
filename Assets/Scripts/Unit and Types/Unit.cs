@@ -272,7 +272,7 @@ public abstract class Unit : MonoBehaviour {
 	#region Selection State Method
 	
 	//Whether or not the unit is selected. Unnecessary switch statements galore.
-	UnitSelectionState _selectionState;
+	UnitSelectionState _selectionState = UnitSelectionState.Unselected;
 	public UnitSelectionState selectionState{
 		get { return _selectionState; }
 		set {
@@ -334,7 +334,7 @@ public abstract class Unit : MonoBehaviour {
 	protected virtual void Awake () {
 		//It hasn't moved, but it has interacted (i.e. it cannot act on its first turn)
 		HasMoved = false;
-		HasInteracted = true;
+		//HasInteracted = true;
 		//The unit is removed on death
 		OnDeath = RemoveUnit;
 		//the standard OnActionSelect is to calculate the attack and move range of the unit. The standard ability is the attack - this
@@ -359,7 +359,8 @@ public abstract class Unit : MonoBehaviour {
 
 	void Start () {
 		//The unit is automatically selected when it spawns
-		selectionState = UnitSelectionState.Selected;
+		//selectionState = UnitSelectionState.Selected;
+		HasInteracted = true;
 	}
 	
 	//The standard function that sets the name and type of the unit. This is overridden in subclasses.
@@ -591,9 +592,7 @@ public abstract class Unit : MonoBehaviour {
 		TurnActionOrderHandler.Instance.actionList.AddLast (new SpecialAbility(InitiatorPosition, TargetPosition,InitiatorLayer,TargetLayer));
 	}
 
-	public void MoveUnitToTarget()
-	{
-
+	public void MoveUnitToTarget(){
 
 	}
 
@@ -648,7 +647,6 @@ public abstract class Unit : MonoBehaviour {
 		UnitInfo_Movement.Instance.Label.text = Movement.ToString ();
 		UnitInfo_Movement.Instance.Sprite.enabled = true;
 		UnitInfo_Range.Instance.Label.text = MinRange.ToString () + " - " + MaxRange.ToString ();
-		UnitInfo_Range.Instance.Sprite.enabled = true;
 	}
 
 	public virtual void unloadUnitStatInfo () {
@@ -662,7 +660,6 @@ public abstract class Unit : MonoBehaviour {
 		UnitInfo_Movement.Instance.Label.text = "";
 		UnitInfo_Movement.Instance.Sprite.enabled = false;
 		UnitInfo_Range.Instance.Label.text = "";
-		UnitInfo_Range.Instance.Sprite.enabled = false;
 	}
 
 	public virtual void preloadStats () {
@@ -678,7 +675,6 @@ public abstract class Unit : MonoBehaviour {
 		UnitInfo_Movement.Instance.Label.text = charStats[1, declareMyColumn ()];
 		UnitInfo_Movement.Instance.Sprite.enabled = true;
 		UnitInfo_Range.Instance.Label.text = charStats [11, declareMyColumn ()] + " - " + charStats [11, declareMyColumn ()];
-		UnitInfo_Range.Instance.Sprite.enabled = true;
 	}
 
 	protected virtual int declareMyColumn () {

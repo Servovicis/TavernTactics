@@ -87,8 +87,10 @@ public class MobileUnit : Unit {
 		get { return _HasInteracted; }
 		set {
 			_HasInteracted = value;
-			InsertGUI ();
-			GUIButtons ();
+			if (!value){
+				InsertGUI ();
+				GUIButtons ();
+			}
 		}
 	}
 

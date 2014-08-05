@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 #pragma warning disable 0414 // variable is assigned but its value is never used.
-public class KingKind : Unit {
+public class KingKind : MobileUnit {
 	int initHealth = 100;
 	int initDefenseChance = 1;
 	int initDamage = 5;
@@ -15,9 +15,6 @@ public class KingKind : Unit {
 	const bool initIsSelectable = true;
 	const bool initIsSpawnable = false;
 	const int initUnitMenuItems = 3;
-	private Rect GUIGroupSize = new Rect(0, 0, 0, 0);
-	private const int GUIButtonWidth = 185;
-	private const int GUIButtonHeight = 29;
 	private int MinStrikeRange = 1;
 	private int MaxStrikeRange = 5;
 	private int StrikeDamage = 8;
@@ -30,8 +27,6 @@ public class KingKind : Unit {
 	private int UltraDamage = 15;
 	public string UnitTypeNameOverride = "King";
 	public string MyNameOverride;
-	protected string Special1Name = "Spear/Sickle Thrust";
-	protected string Special2Name = "Ultra Special";
 
 	protected override void Awake(){
 		myColumn = 6;
@@ -55,26 +50,9 @@ public class KingKind : Unit {
 		MinUltraAttack = int.Parse (charStats [7, myColumn]);
 		MaxUltraAttack = int.Parse (charStats [8, myColumn]);
 		BaseDamage = int.Parse (charStats [23, myColumn]);
-		
-		
-		Debug.Log("King HP "+ initHealth);
-		Debug.Log("King MinRipRange "+ MinStrikeRange);
-		Debug.Log("King MaxRipRange "+ MaxStrikeRange);
-		Debug.Log ("King Movement " + initMovement);
-		Debug.Log ("King Damage " + initDamage);
-		Debug.Log ("King Population Cost " + initPopulationCost);
-		Debug.Log ("King Summoning Cost " + initSummoningCost);
-		Debug.Log ("King MinBuffRange " + MinUltraRange);
-		Debug.Log ("King MaxBuffRange " + MaxUltraRange);
-		Debug.Log ("King MinRange " + initMinRange);
-		Debug.Log ("King MaxRange " + initMaxRange);
-		Debug.Log ("King Defense " + initDefenseChance);
-		Debug.Log ("King MinRipAttack " + MinStrikeAttack);
-		Debug.Log ("King MaxRipAttack " + MaxStrikeAttack);
-		Debug.Log ("King MinBuffAttack " + MinUltraAttack);
-		Debug.Log ("King MaxBuffAttack " + MaxUltraAttack);
 
-
+		Special1Name = "Spear/Sickle Thrust";
+		Special2Name = "Ultra Special";
 		Health = initHealth;
 		MaxHealth = initHealth;
 		CritChance = initDamage;
@@ -90,8 +68,6 @@ public class KingKind : Unit {
 		IsSelectable = initIsSelectable;
 		IsSpawnable = initIsSpawnable;
 		UnitMenuItems = initUnitMenuItems;
-		GUIGroupSize.height = GUIButtonHeight;
-		GUIGroupSize.width = 1000;
 		unitGUI = UnitGUI;
 		UnitType = GridCS.UnitType.King;
 		OnDeath = DeathAction;
@@ -113,85 +89,87 @@ public class KingKind : Unit {
 		IsSpawnable = initIsSpawnable;
 		MyName = MyNameOverride;
 	}
-	
-	public void KingUnitGUI ()
-	{
-		if (!HasInteracted) {
-		GUI.BeginGroup (GUIGroupSize);
-		if (GUI.Button (new Rect  (175, 0, GUIButtonWidth, GUIButtonHeight), "Attack!")) 
-		{
-			RemoveAbilityRange ();
-			CalculateAttackRange ();
-			RemoveAbilityRange += RemoveAttackRange;
-			//OnActionDeselect = RemoveMoveRange;
-			//OnActionDeselect += RemoveAbilityRange;
-		}
-		if (GUI.Button (new Rect (400, 0, GUIButtonWidth, GUIButtonHeight), Special1Name)) 
-			{
-				OnSpecial = SpearThrust;
-				RemoveAbilityRange ();
-				SeeIfCanThrust ();
-				RemoveAbilityRange += RemoveSeeIfCanThrust;
-				OnSpecialSelect = SpecialSelection;
-				OnSpecialSelect += spec1Anim;
-				//OnActionDeselect = RemoveMoveRange;
-				//OnActionDeselect += RemoveAbilityRange;
-			}
-		if (GUI.Button (new Rect (625, 0, GUIButtonWidth, GUIButtonHeight), Special2Name)) 
-			{
-				OnSpecial = UltraSpecial;
-				RemoveAbilityRange ();
-				SeeIfCanUltra ();
-				RemoveAbilityRange += RemoveSeeIfCanUltra;
-				OnSpecialSelect = SpecialSelection;
-				OnSpecialSelect += spec2Anim;
-				//OnActionDeselect = RemoveMoveRange;
-				//OnActionDeselect += RemoveAbilityRange;
-			}
-			GUI.EndGroup ();
-		}
+
+	public override void SpecButton1 () {
+		base.SpecButton1 ();
+		OnSpecial = SpearThrust;
+		RemoveAbilityRange ();
+		SeeIfCanThrust ();
+		RemoveAbilityRange += RemoveSeeIfCanThrust;
+		OnSpecialSelect = SpecialSelection;
+		OnSpecialSelect += spec1Anim;
+		//OnActionDeselect = RemoveMoveRange;
+		//OnActionDeselect += RemoveAbilityRange;
 	}
 
-		public virtual void SpearThrust(Vector2 TargetPosition, Vector2 InitiatorPosition, int TargetLayer, int InitiatorLayer){
-			Debug.Log (TargetPosition + " Ouch!!!");
-			HasInteracted = false;
-			OnActionDeselect ();
-		}
-		public virtual void UltraSpecial(Vector2 TargetPosition, Vector2 InitiatorPosition, int TargetLayer, int InitiatorLayer){
-			Debug.Log (TargetPosition + "What a incredible hit!!!");
-			HasInteracted = false;
-			OnActionDeselect ();
-		}
-		public virtual void SeeIfCanThrust(){
-			GridCS.Instance.CalculateCircularRange(Position,Tile.OverlayType.SpecialAvailable,MinStrikeRange,MaxStrikeRange,SwitchButton.Instance.CurrentPlayer.player, true, false, false, layer);	}
-		
-		public virtual void RemoveSeeIfCanThrust(){
-			GridCS.Instance.EraseRange (Position, Tile.OverlayType.SpecialAvailable, MaxStrikeRange,layer);
-		}
-		
-		public virtual void SeeIfCanUltra(){
-			GridCS.Instance.CalculateCircularRange(Position,Tile.OverlayType.SpecialAvailable,MinUltraRange,MaxUltraRange,SwitchButton.Instance.CurrentPlayer.player, true, false, false, layer);
-		}
-		
-		public virtual void RemoveSeeIfCanUltra(){
-			GridCS.Instance.EraseRange (Position, Tile.OverlayType.SpecialAvailable, MaxUltraRange,layer);
-		}
-		public virtual void UndoUltraSelection (Vector2 TargetPosition, Vector2 InitiatorPosition){
-			OnActionSelect ();
-			HasInteracted = !HasInteracted;
-			TurnInteract = new Vector2(0,0);
-		}
-		
-		public override void InsertGUI(){
-			GameManager.Instance.buttonsGUIFunction += KingUnitGUI;
-		}
-		
-		public virtual void RemoveGUI(){
-			GameManager.Instance.buttonsGUIFunction = null;
-			OnActionSelect += InsertGUI;
-			RemoveAbilityRange = RemoveAttackRange;
-		}
+	public override void SpecButton2 () {
+		base.SpecButton2 ();
+		OnSpecial = UltraSpecial;
+		RemoveAbilityRange ();
+		SeeIfCanUltra ();
+		RemoveAbilityRange += RemoveSeeIfCanUltra;
+		OnSpecialSelect = SpecialSelection;
+		OnSpecialSelect += spec2Anim;
+		//OnActionDeselect = RemoveMoveRange;
+		//OnActionDeselect += RemoveAbilityRange;
+	}
+
+	public virtual void SpearThrust(Vector2 TargetPosition, Vector2 InitiatorPosition, int TargetLayer, int InitiatorLayer){
+		Debug.Log (TargetPosition + " Ouch!!!");
+		HasInteracted = false;
+		OnActionDeselect ();
+	}
+
+	public virtual void UltraSpecial(Vector2 TargetPosition, Vector2 InitiatorPosition, int TargetLayer, int InitiatorLayer){
+		Debug.Log (TargetPosition + "What a incredible hit!!!");
+		HasInteracted = false;
+		OnActionDeselect ();
+	}
+
+	public virtual void SeeIfCanThrust(){
+		GridCS.Instance.CalculateCircularRange(Position,Tile.OverlayType.SpecialAvailable,MinStrikeRange,MaxStrikeRange,SwitchButton.Instance.CurrentPlayer.player, true, false, false, layer);	}
+
+	public virtual void RemoveSeeIfCanThrust(){
+		GridCS.Instance.EraseRange (Position, Tile.OverlayType.SpecialAvailable, MaxStrikeRange,layer);
+	}
+
+	public virtual void SeeIfCanUltra(){
+		GridCS.Instance.CalculateCircularRange(Position,Tile.OverlayType.SpecialAvailable,MinUltraRange,MaxUltraRange,SwitchButton.Instance.CurrentPlayer.player, true, false, false, layer);
+	}
+
+	public virtual void RemoveSeeIfCanUltra(){
+		GridCS.Instance.EraseRange (Position, Tile.OverlayType.SpecialAvailable, MaxUltraRange,layer);
+	}
+
+	public virtual void UndoUltraSelection (Vector2 TargetPosition, Vector2 InitiatorPosition){
+		OnActionSelect ();
+		HasInteracted = !HasInteracted;
+		TurnInteract = new Vector2(0,0);
+	}
+
 	void DeathAction (){
 		Application.LoadLevel ("WinScene");
+	}
+
+	public override void CalculateMoveRange () {
+
+	}
+
+	public override void RemoveMoveRange () {
+
+	}
+
+	public override void LevelUp (){
+
+	}
+
+	public override void InsertGUI(){
+		loadUnitStatInfo ();
+		if (!HasInteracted && UnitOwner.WallIsDestroyed){
+			GUIButtons();
+		}
+		else {
+			removeButtons ();
+		}
 	}
 }

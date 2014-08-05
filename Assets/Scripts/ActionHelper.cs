@@ -63,8 +63,8 @@ public static class ActionHelper
 		ThisTile.LoadedUnitScript.layer = (int) ThisTile.layerNumber.x;
 		ThisUnit.transform.Translate (new Vector3 (TargetPosition.x - InitiatorPosition.x, ThisTile.transform.position.y + Tile.UNITLOADDISTANCE - ThisUnit.transform.position.y, TargetPosition.y - InitiatorPosition.y), Space.World);
 		GameObject GameController = GameObject.Find ("GameControl");
-		CursorSelection Cursor = GameController.GetComponent<CursorSelection> ();
-		Cursor.selectedTile = ThisTile;
+		//CursorSelection Cursor = GameController.GetComponent<CursorSelection> ();
+		//Cursor.selectedTile = ThisTile;
 	}
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	//Finds all enemies in a circular range of a space, sets the tiles to be selectable in the desired way.
