@@ -9,9 +9,11 @@ public static class GenreScriptInitializer{
 	public static void LoadItemsIntoGenre (PrefabGenreScript genreScript) {
 		string[] UnitScripts = Resources.Load <TextAsset> (genreScript.genreName).text.Split (new char[]{TextSeparator},System.StringSplitOptions.RemoveEmptyEntries);
 		foreach (string UnitName in UnitScripts) {
-			GameObject UnitObject = Resources.Load("Genre/" + genreScript.genreName+"/"+UnitName) as GameObject;
+			GameObject UnitObject = Resources.Load("Genre/" + genreScript.genreName+"/Units/"+UnitName) as GameObject;
 			Unit UnitScript = UnitObject.GetComponent<Unit>();
+			GameObject UnitPortrait = Resources.Load ("Genre/" + genreScript.genreName + "/UnitPortraits/" + UnitName) as GameObject;
 			UnitScript.UnitTypeSet ();
+			UnitScript.myPortrait = UnitPortrait;
 			genreScript.UnitTypes.Add (UnitScript.UnitTypeName);
 			genreScript.UnitsList.Add (UnitObject);
 		}

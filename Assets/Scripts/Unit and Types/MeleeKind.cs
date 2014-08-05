@@ -95,6 +95,10 @@ public abstract class MeleeKind : MobileUnit {
 		base.Awake ();
 	}
 
+	protected override int declareMyColumn () {
+		return 2;
+	}
+
 	public override void UnitTypeSet (){
 		UnitTypeName = UnitTypeNameOverride;
 		IsSpawnable = initIsSpawnable;

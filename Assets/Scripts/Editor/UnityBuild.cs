@@ -18,12 +18,12 @@ public class UnityBuild : Editor {
 
 	public static char TextSeparator = ',';
 
-	[MenuItem("Genre Wars/Build For Windows")]
+	[MenuItem("Tavern Tactics/Build For Windows")]
 	public static void BuildForWindows(){
 		UpdateGenres ();
 		UpdateGenreUnits ();
 		UpdateLevels ();
-		string error =BuildPipeline.BuildPlayer( LevelNames, "Builds/Genre Wars.exe", 
+		string error =BuildPipeline.BuildPlayer( LevelNames, "Builds/Tavern Tactics.exe", 
 		                                 BuildTarget.StandaloneWindows, BuildOptions.None);
 		
 		if (!string.IsNullOrEmpty(error))
@@ -32,7 +32,7 @@ public class UnityBuild : Editor {
 		}
 	}
 
-	[MenuItem("Genre Wars/Update Genres")]
+	[MenuItem("Tavern Tactics/Update Genres")]
 	public static void UpdateGenres(){
 		string[] GenreNames = Directory.GetFiles (Application.dataPath + "/Resources/GenreScripts/", "*.prefab");
 		string FileText = "";
@@ -44,13 +44,13 @@ public class UnityBuild : Editor {
 		File.WriteAllText(Application.dataPath + "/Resources/Genres.txt", FileText);
 	}
 
-	[MenuItem("Genre Wars/Update Units")]
+	[MenuItem("Tavern Tactics/Update Units")]
 	public static void UpdateGenreUnits() {
 		//Load in the units associated with each genrescript
 		string[] GenreScripts = Resources.Load <TextAsset> ("Genres").text.Split (new char[] {TextSeparator}, System.StringSplitOptions.RemoveEmptyEntries);
 		foreach(string GenreName in GenreScripts)
 		{
-			string[] UnitNames = Directory.GetFiles (Application.dataPath + "/Resources/Genre/" + GenreName + "/", "*.prefab");
+			string[] UnitNames = Directory.GetFiles (Application.dataPath + "/Resources/Genre/" + GenreName + "/Units/", "*.prefab");
 			string FileText = "";
 			foreach (string unitfile in UnitNames) {
 				if (unitfile != null){
@@ -63,7 +63,7 @@ public class UnityBuild : Editor {
 		}
 	}
 
-	[MenuItem("Genre Wars/Update Levels")]
+	[MenuItem("Tavern Tactics/Update Levels")]
 	public static void UpdateLevels(){
 		string[] LevelNames = Directory.GetFiles (Application.dataPath + "/Resources/Levels/", "*.txt");
 		string FileText = "";

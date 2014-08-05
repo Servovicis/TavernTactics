@@ -37,10 +37,6 @@ public abstract class Unit : MonoBehaviour {
 			} else {
 				_Health = MaxHealth;
 			}
-
-			//Adjust the unit's health bar size to match its health
-			//healthbar.adjustBarLength(value, MaxHealth);
-
 			//If the health is less than zero and there is a death action, perform it and destroy the object.
 			if (_Health <= 0){
 				if (OnDeath != null){
@@ -123,6 +119,10 @@ public abstract class Unit : MonoBehaviour {
 	public string MyName;
 	//The unit's column on the spreadsheet
 	public int myColumn;
+	//The Unit's portrait copy
+	public GameObject myPortrait;
+	//The Unit's genre as a string
+	public string myGenreName;
 
 	//The amount of units that this unit has killed
 	int _experience = 0;
@@ -327,15 +327,7 @@ public abstract class Unit : MonoBehaviour {
 			RemoveAbilityRange ();
 		if (OnActionDeselectExtra != null)
 			OnActionDeselectExtra ();
-		UnitInfo_Attack.Instance.Label.text = "";
-		UnitInfo_Attack.Instance.Sprite.enabled = false;
-		UnitInfo_Defense.Instance.Label.text = "";
-		UnitInfo_Defense.Instance.Sprite.enabled = false;
-		UnitInfo_Health.Instance.Label.text = "";
-		UnitInfo_Health.Instance.Sprite.enabled = false;
-		UnitInfo_Movement.Instance.Label.text = "";
-		UnitInfo_Movement.Instance.Sprite.enabled = false;
-		UnitInfo_Range.Instance.Label.text = "";
+		unloadUnitStatInfo ();
 	}
 	
 	// Use this for initialization
@@ -598,6 +590,13 @@ public abstract class Unit : MonoBehaviour {
 		//Add the special ability into the last slot in the action stack
 		TurnActionOrderHandler.Instance.actionList.AddLast (new SpecialAbility(InitiatorPosition, TargetPosition,InitiatorLayer,TargetLayer));
 	}
+
+	public void MoveUnitToTarget()
+	{
+
+
+	}
+
 	
 	//Undo the unit's special ability selection. Resets the selection densities and variables associated with having interacted.
 	public virtual void UndoSpecialSelection (Vector2 TargetPosition, Vector2 InitiatorPosition, int TargetLayer, int InitiatorLayer){
@@ -621,7 +620,7 @@ public abstract class Unit : MonoBehaviour {
 
 	IEnumerator DeathAnimation () {
 		animator.SetTrigger("died");
-		if (animation.clip != null)
+		if (animation != null)
 			yield return new WaitForSeconds(animation.clip.length + 1);
 		OnDeath ();
 		Destroy (this.gameObject);
@@ -631,7 +630,15 @@ public abstract class Unit : MonoBehaviour {
 		level++;
 	}
 
-	public virtual void InsertGUI () {
+	public virtual void GUIButtons () {
+	}
+
+	public virtual void removeButtons () {
+
+	}
+	
+	public virtual void loadUnitStatInfo () {
+		UnitPortraitController.Instance.LoadUnit (myPortrait);
 		UnitInfo_Attack.Instance.Label.text = BaseDamage.ToString ();
 		UnitInfo_Attack.Instance.Sprite.enabled = true;
 		UnitInfo_Defense.Instance.Label.text = DamageReduction.ToString ();
@@ -641,6 +648,45 @@ public abstract class Unit : MonoBehaviour {
 		UnitInfo_Movement.Instance.Label.text = Movement.ToString ();
 		UnitInfo_Movement.Instance.Sprite.enabled = true;
 		UnitInfo_Range.Instance.Label.text = MinRange.ToString () + " - " + MaxRange.ToString ();
+		UnitInfo_Range.Instance.Sprite.enabled = true;
+	}
+
+	public virtual void unloadUnitStatInfo () {
+		UnitPortraitController.Instance.unloadUnit ();
+		UnitInfo_Attack.Instance.Label.text = "";
+		UnitInfo_Attack.Instance.Sprite.enabled = false;
+		UnitInfo_Defense.Instance.Label.text = "";
+		UnitInfo_Defense.Instance.Sprite.enabled = false;
+		UnitInfo_Health.Instance.Label.text = "";
+		UnitInfo_Health.Instance.Sprite.enabled = false;
+		UnitInfo_Movement.Instance.Label.text = "";
+		UnitInfo_Movement.Instance.Sprite.enabled = false;
+		UnitInfo_Range.Instance.Label.text = "";
+		UnitInfo_Range.Instance.Sprite.enabled = false;
+	}
+
+	public virtual void preloadStats () {
+		UnitPortraitController.Instance.LoadUnit (myPortrait);
+		TextAsset csv = Resources.Load("CharacterBalance") as TextAsset;
+		string [,] charStats = LoadCSV.SplitCsvGrid(csv.text);
+		UnitInfo_Attack.Instance.Label.text = charStats [23, declareMyColumn()];
+		UnitInfo_Attack.Instance.Sprite.enabled = true;
+		UnitInfo_Defense.Instance.Label.text = DamageReduction.ToString ();
+		UnitInfo_Defense.Instance.Sprite.enabled = true;
+		UnitInfo_Health.Instance.Label.text = charStats[4,declareMyColumn()];
+		UnitInfo_Health.Instance.Sprite.enabled = true;
+		UnitInfo_Movement.Instance.Label.text = charStats[1, declareMyColumn ()];
+		UnitInfo_Movement.Instance.Sprite.enabled = true;
+		UnitInfo_Range.Instance.Label.text = charStats [11, declareMyColumn ()] + " - " + charStats [11, declareMyColumn ()];
+		UnitInfo_Range.Instance.Sprite.enabled = true;
+	}
+
+	protected virtual int declareMyColumn () {
+		return 0;
+	}
+
+	public virtual void InsertGUI () {
+		loadUnitStatInfo ();
 	}
 
 	#endregion
