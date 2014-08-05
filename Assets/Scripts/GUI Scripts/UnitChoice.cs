@@ -23,6 +23,7 @@ public class UnitChoice : MonoBehaviour
 	public int NumberOfButtons = 4;
 	private Rect GUIGroupSize = new Rect(0, 0, 1225, 45);
 	public const float UNITSPAWNHEIGHT = 0.05F;
+	private const float unitScaleMultiplier = 1.26f;
 
 	private GameObject PlayerControl;
 	private SwitchButton PlayerControlScript;
@@ -61,6 +62,7 @@ public class UnitChoice : MonoBehaviour
 		{
 			InstantiatedObjectScript = ((Instantiate (SpawnedUnit, SpawnVector, Quaternion.identity)) as GameObject).GetComponent<Unit>();
 			InstantiatedObjectScript.transform.Rotate(0, ThisPlayer.UnitFacingAngle, 0);
+			InstantiatedObjectScript.transform.localScale *= unitScaleMultiplier;
 			InstantiatedObjectScript.UnitOwner = ThisPlayer;
 			CursorSelectionScript.selectedTile.LoadedUnitScript = InstantiatedObjectScript;
 			ThisPlayer.SummoningPoints -= InstantiatedObjectScript.summoningCost;
