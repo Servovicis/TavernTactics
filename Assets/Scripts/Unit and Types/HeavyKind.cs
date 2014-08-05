@@ -1,8 +1,6 @@
 using UnityEngine;
 using System.Collections;
-#pragma warning disable 0168 // variable declared but not used.
-#pragma warning disable 0219 // variable assigned but not used.
-#pragma warning disable 0414 // private field assigned but not used.
+
 public abstract class HeavyKind : MobileUnit {
 	int initHealth = 1;
 	int initDefenseChance = 2;
@@ -99,13 +97,10 @@ public abstract class HeavyKind : MobileUnit {
 		unitGUI = UnitGUI;
 		UnitType = GridCS.UnitType.Heavy;
 		IsKing = false;
+		OnActionSelect += InsertGUI;
 		OnActionDeselectExtra = RemoveGUI;
 		OnAttack = UnitResolveAttack;
 		OnDeath += heavyDeath;
-	}
-
-	protected override int declareMyColumn () {
-		return 4;
 	}
 
 	public override void UnitTypeSet (){

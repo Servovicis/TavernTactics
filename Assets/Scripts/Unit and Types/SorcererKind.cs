@@ -96,10 +96,6 @@ public abstract class SorcererKind : MobileUnit {
 		OnDeath += sorcererDeath;
 		base.Awake ();
 	}
-
-	protected override int declareMyColumn () {
-		return 5;
-	}
 	
 	public override void UnitTypeSet (){
 		UnitTypeName = UnitTypeNameOverride;

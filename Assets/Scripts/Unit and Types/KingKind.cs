@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 
-#pragma warning disable 0414 // variable is assigned but its value is never used.
 public class KingKind : Unit {
 	int initHealth = 100;
 	int initDefenseChance = 1;
@@ -97,15 +96,10 @@ public class KingKind : Unit {
 		OnDeath = DeathAction;
 		IsKing = true;
 		OnActionSelect += InsertGUI;
-		OnActionSelect += GUIButtons;
 		OnActionDeselectExtra = RemoveGUI;
 		OnAttack = UnitResolveAttack;
 		//OnAttack = AOEAttack;
 		base.Awake ();
-	}
-
-	protected override int declareMyColumn () {
-		return 6;
 	}
 
 	public override void UnitTypeSet (){
